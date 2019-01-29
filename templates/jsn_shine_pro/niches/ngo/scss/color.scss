@@ -1,0 +1,114 @@
+/* PLEASE BE VERY CAREFUL WHEN EDITTING THIS FILE !
+   Don't change our color variables in line 5 & 6.
+*/
+
+$main-color: false !default;
+$sub-color: false !default;
+
+@if $main-color != false{
+	#sunfw_section_topbar ul.nav.menu li.active > a{
+	    color: $main-color;
+	}
+	nav.navbar.sunfw-menu-head ul.navbar-nav > li > a.ngo-bg-color{
+	    background-color: $main-color!important;
+	}
+	.ngo-bg{
+	    background: $main-color;
+	}
+	.ngo-main-color, .ngo-main-color > h1,.ngo-main-color > h2,.ngo-main-color > h3,.ngo-main-color > h4,.ngo-main-color > h5,.ngo-main-color > h6{
+		color: $main-color !important;
+	}
+	.ngo-layout-list2 ul li.articlelist-item .articlelist-item-content .meta-data-wrapper .category	a,.ngo-latest-news .pb-item .pb-content a.Category{
+		background: $main-color;
+	}
+	.video-about .play{
+		background: $main-color;
+	}
+	.video-about:hover .play{
+	 	background: $main-color;
+	}
+	.ngo-newsletter form .form-actions button[type='submit']{
+		background: $main-color;	
+	}	
+	.copyright a{
+	    color: $main-color !important;
+	}
+	#sunfw_section_promo .jsn-bootstrap3 a.btn:hover,#sunfw_section_promo a.pb-button.border-hover:hover{
+	    border-color: $main-color !important;
+	}
+	.jsn-bootstrap3 .ngo-impact-list ul li:hover{
+		box-shadow: 0 0 0 4px $main-color inset;
+        border-color: $main-color;
+        div.img{
+            background: $main-color;
+            border-color: $main-color;
+        }
+	}
+	.pb-body .ngo-impact-list .pb-blurb:hover{
+		box-shadow: 0 0 0 4px $main-color inset;
+        border-color: $main-color !important;
+        div.pb-image{
+            background: $main-color;
+            border-color: $main-color;
+        }		
+	}
+	.ngo-donate.jsn-bootstrap3.jsn-pagebuilder button[type='submit']{
+	    background-color: $main-color;
+	}
+	.jsn-bootstrap3.jsn-pagebuilder.ngo-btn-style a.btn:after, .pb-section .pb-grid .ngo-btn-style:after{
+		background: linear-gradient(to right, #222427 50%, $main-color 50%);
+        background-size: 200% 100%;
+        background-position: right;		
+	}	
+	.jsn-bootstrap3.jsn-pagebuilder.ngo-donate-btn a,a.pb-button.ngo-donate-btn{
+	 	background: $main-color;	
+	}
+	.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus{
+	    border-color: $main-color;
+	}	
+	div.k2Pagination ul li a:hover{
+	    border-color: $main-color;
+	}
+	.sunfw-scrollup:hover{
+		color: $main-color;
+	}
+	ul.nav[class*='menu-treemenu'],
+	ul.nav[class*='menu-sidemenu'] {
+		li {
+			&:hover > {
+				a, 
+				span.nav-header,
+				span.separator{
+					color: $main-color;
+				}
+			}
+			&.active {
+				> a, 
+				> span.nav-header,
+				> span.separator{
+					color: $main-color !important;
+				}
+			}
+		}
+	}
+	ul {
+		&.nav[class*='menu-treemenu'] {
+			li {
+				&.active,
+				&.current {
+					> a {
+						color: $main-color;
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: 768px){
+		nav.navbar ul.navbar-nav > li > a > span:before{
+			background-color: $main-color;
+		}
+	}	
+	ul.sunfw-tpl-menu > li:hover .ngo-bg-color{
+		background-color: $main-color!important;
+	}	
+}

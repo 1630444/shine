@@ -1,0 +1,22 @@
+/*!
+ * JoomlaShine FW
+ */
+
+// Core variables and mixins
+@import "../../../scss/bootstrap/variables";
+@import "../../../assets/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+@import "vars/var";
+@import "../../../scss/mixins/mixins";
+@import "mixins/mixins";
+
+
+// Module and Layout
+@import "joomla/layout";
+@import "joomla/items";
+@import "joomla/modules";
+@import "joomla/megamenu";
+@import "joomla/contact";
+@import "joomla/user";
+@import "joomla/eshop";
+@import "joomla/responsive";
+@import "joomla/navigation";

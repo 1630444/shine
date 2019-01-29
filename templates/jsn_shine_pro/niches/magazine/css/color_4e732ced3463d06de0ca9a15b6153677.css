@@ -1,0 +1,38 @@
+@media (min-width: 768px) {
+  #menu_item_menu ul.navbar-nav > li:hover, #menu_item_menu ul.navbar-nav > li.active {
+    background: #154191;
+  }
+  .sunfw-menu-head.navbar-default .navbar-nav > li {
+    border-right: 1px solid #1a51b5;
+  }
+  .search.search-inline #sun_search_icon {
+    border-left: 1px solid #1a51b5;
+  }
+}
+.block-right-menu:before, .social.social-top, .search.search-inline {
+  background: #1849a3;
+}
+.hot-news a.moduleItemTitle .read-more {
+  color: #1849a3;
+}
+.k2ItemsBlock a.moduleItemTitle:hover {
+  color: #1849a3;
+}
+.k2ItemsBlock .moduleItemAuthor a, .k2ItemsBlock .moduleItemDateCreated a {
+  color: #1849a3 !important;
+}
+.menu-inline .nav > li a:hover, .menu-inline .nav > li a.active, .menu-inline .nav > li a.current {
+  color: #1849a3 !important;
+}
+.search.search-inline:hover {
+  background: #1849a3;
+}
+.social li a:hover {
+  color: #154191;
+}
+.hot-news .module-title {
+  background: #ff6e6e !important;
+}
+#k2Container .itemTitle sup {
+  background: #ff6e6e;
+}

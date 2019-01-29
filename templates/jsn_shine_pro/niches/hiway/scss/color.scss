@@ -1,0 +1,93 @@
+$main-color: false !default;
+$sub-color: false !default;
+@if($main-color != false){
+	.category-menu h3.pb-module-title,
+	.category-menu h3.box-title,
+	.k2AccountPage .button, #user-registration .btn, .badge {
+		background: $main-color;
+	}
+	.category-menu .menu > li > a:hover,
+	a, .glyphicon-home:before {
+	    color: $main-color;
+	}
+	.main-menu .sunfw-menu .sunfw-tpl-menu > li > a:before {
+		background: $main-color;
+	}
+	#eshop-cart .eshop-items a{
+		color: $main-color;
+	}
+	.eshop-info-block h5 a:hover {
+	    color: $main-color;
+	}
+	.block-price .price,
+	.eshop-sale-price,
+	.eshop-info-block .price {
+	    color: $main-color;
+	}
+	#productTab li.active a, #productTab li:hover a {
+		color: $main-color !important;
+	}
+	.article-item .content-item .newsflash-title a:hover {
+		color: $main-color;
+	}
+	.article-item .content-item .readmore:hover {
+	    color: $main-color;
+	}
+	.hiway-services .icon-wrap {
+		background: $main-color;
+	}
+	.footer .newsletter .btn.jsn-form-submit {
+		background: $main-color;
+	}
+	.tag-cloud a:hover {
+		background: $main-color;
+	}
+	.social li a {
+	    color: $main-color;
+	}
+	.footer .menu li a:hover {
+		color: $main-color;
+	}
+	ul.nav[class*='menu-treemenu'],
+	ul.nav[class*='menu-sidemenu'] {
+		li {
+			&:hover > {
+				a, 
+				span.nav-header,
+				span.separator{
+					color: $main-color;
+				}
+			}
+			&.active {
+				> a, 
+				> span.nav-header,
+				> span.separator{
+					color: $main-color !important;
+				}
+			}
+		}
+	}
+	ul {
+		&.nav[class*='menu-treemenu'] {
+			li {
+				&.active,
+				&.current {
+					> a {
+						color: $main-color;
+					}
+				}
+			}
+		}
+	}
+	#pb3-tab > nav > a[data-active="true"]{
+		color: $main-color;
+	}
+}
+@if($sub-color != false){
+	.eshop-cart-area .btn-cart:hover {
+	    background: $sub-color;
+	}
+	.btn-wishlist:hover, .btn-compare:hover {
+		background: $sub-color;
+	}
+}

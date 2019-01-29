@@ -1,0 +1,42 @@
+/* ============================ */
+/*============================ Background ============================ */
+.sport-head, .bg-head-menu:after, div#fd.eb.eb-jsn_shine .eb-header .eb-navbar-nav > li.active, .bg-head-menu::before, .bg-head-menu::after, div#fd.eb.mod_easyblogmostpopularpost.video .mod-item.first .eb-mod-thumb i:hover, div#fd.eb.mod_easybloglatestblogs.video .first-item .eb-mod-thumb i:hover, div#fd.eb.list-video .eb-mod-thumb a:hover i:hover, [class*="layout-col-three"] .articlelist-item div.title::before, .btn-primary {
+  background: #0c953a;
+}
+.bg-head-menu {
+  background: #0eb145;
+}
+/*============================ Border Color ============================ */
+a, .jsn-bootstrap3 a, div.jsn-bootstrap3 a, .module-style.trending div#fd.eb.eb-mod .eb-mod-title a:hover, div#fd.eb.mod_easyblogmostpopularpost.video .eb-mod-title::before, .footer ul.menu li::before, div#fd.eb .mod-post-type a, div#fd.eb.eb-jsn_shine .eb-pager .eb-pager__link-list a.active, div#fd.eb.mod_easybloglatestblogs .eb-mod-title a:hover, div#fd.eb.mod_easybloglatestblogs.firstimage .mod-item:not(.first):before, div#fd.eb.mod_easyblogmostpopularpost .eb-mod-title a.eb-mod-media-title:hover, div#fd.eb.mod_easyblogmostpopularpost.video .mod-item.first .eb-mod-thumb a:hover i, div#fd.eb.mod_easyblogmostpopularpost.videolarge .eb-mod-thumb .content .header i, div#fd.eb.mod_easyblogmostpopularpost.videolarge .eb-mod-thumb .content .header .content-header .meta-head a, div#fd.eb.mod_easyblogmostpopularpost.videolarge .eb-mod-thumb .content .header .eb-mod-media-title:hover, div#fd.eb.mod_easybloglatestblogs.video .first-item .eb-mod-thumb a:hover i, .eb-mod-thumb a:hover i, .sunfw-menu-head .sunfw-tpl-menu .dropdown-menu > li > a:hover, .sunfw-menu-head .sunfw-mega-menu ul li a:hover, .readmore a, .readmore a:hover, [class*="layout-col-three"].icon-video .articlelist-item div.title::before, div.k2Pagination ul li a, .pagination > li > a, .pagination > li > span, [class*="layout-col-"] .pb-articlelist-wrapper .meta-data-wrapper.muted div, [class*="layout-col-"] .pb-articlelist-wrapper .articlelist-item-read-more a {
+  color: #0c953a;
+}
+/*============================ Border Color ============================ */
+div#fd.eb.eb-jsn_shine .eb-header .eb-navbar-nav > li.active {
+  border-color: #0c953a;
+}
+.module-title .box-title::after, .module-title .pb-module-title::after, .pb-element-module .box-title::after, .pb-element-module .pb-module-title::after {
+  border-left-color: #0c953a;
+}
+div#fd.eb.mod_easyblogcategories .sportnew-cat li a::after {
+  border-color: #0c953a #262f3b rgba(0, 0, 0, 0) #0c953a;
+}
+.sport-head .search input {
+  border-color: #3bef78;
+}
+div.module-body .sportnew-cat li a:after {
+  border-color: #0c953a #262f3b rgba(0, 0, 0, 0) #0c953a;
+}
+.bg-head-menu::after {
+  box-shadow: 0 0 0 35px #0ead43, 0 0 0 70px #10c44c, 0 0 0 105px #11ce50, 0 0 0 140px #12dc56;
+  -webkit-box-shadow: 0 0 0 35px #0ead43, 0 0 0 70px #10c44c, 0 0 0 105px #11ce50, 0 0 0 140px #12dc56;
+  -moz-box-shadow: 0 0 0 35px #0ead43, 0 0 0 70px #10c44c, 0 0 0 105px #11ce50, 0 0 0 140px #12dc56;
+}
+/* ============================ Sub Color ============================ */
+.sport-banner::after, .bg-head-banner::after, .bg-head-top .bg, .sport-top:after, .bg-head-top:after {
+  background: #0e4178;
+}
+.bg-head-banner .bg::after, .bg-head-top .bg:after {
+  -webkit-box-shadow: 0 0 0 40px #030d18, 0 0 0 76px #05172a, 0 0 0 116px #07213d;
+  -moz-box-shadow: 0 0 0 40px #030d18, 0 0 0 76px #05172a, 0 0 0 116px #07213d;
+  box-shadow: 0 0 0 40px #030d18, 0 0 0 76px #05172a, 0 0 0 116px #07213d;
+}

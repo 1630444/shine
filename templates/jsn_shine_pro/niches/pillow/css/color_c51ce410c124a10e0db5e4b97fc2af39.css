@@ -1,0 +1,97 @@
+#sunfw_section_footer ul.menu li a:hover {
+  color: #d6aa74;
+}
+.navbar ul.navbar-nav li a:hover, .navbar ul.navbar-nav li span.nav-header:hover {
+  color: #d6aa74;
+}
+.navbar ul.navbar-nav li.active > span.nav-header, .navbar ul.navbar-nav li.active > a {
+  color: #d6aa74;
+}
+.navbar ul.navbar-nav li.active > span.nav-header:hover, .navbar ul.navbar-nav li.active > a:hover {
+  color: #d6aa74;
+}
+div.k2TagCloudBlock a, div.k2TagCloudBlock a:hover {
+  color: #d6aa74;
+}
+.productdetails-view .vm-product-details-container .spacer-buy-area .product-price .vm-price-value span {
+  color: #d6aa74;
+}
+.productdetails-view .information_tabs ul.tabs li.active a {
+  color: #d6aa74 !important;
+}
+#userForm button[type='reset'] {
+  background-color: #d6aa74;
+}
+#userForm button[type='reset']:hover {
+  background-color: #d6aa74 !important;
+}
+.vm-product-media-container .p-info .product-name a:hover {
+  color: #d6aa74;
+}
+.vm-sidebar ul li a:hover {
+  color: #d6aa74;
+}
+#fancybox-content .showcart {
+  background-color: #d6aa74;
+}
+.vm_mod_product .spacer .product-price span {
+  color: #d6aa74;
+}
+.featured-view .spacer .product-price span, .latest-view .spacer .product-price span, .topten-view .spacer .product-price span, .recent-view .spacer .product-price span, .related-products-view .spacer .product-price span, .browse-view .row .product .spacer .product-price span {
+  color: #d6aa74;
+}
+.product-info .align-right .product-price .vm-display span.PricesalesPrice {
+  color: #d6aa74;
+}
+.p-info .addtocart-area .addtocart-button:hover input {
+  color: #d6aa74;
+}
+.p-info .addtocart-area .addtocart-button:hover i {
+  color: #d6aa74;
+}
+.jsn-bootstrap3 .pillow-members ul.pb-social-icons li:hover div.pb-brand-icons i {
+  color: #d6aa74;
+}
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+  background-color: #d6aa74;
+  border-color: #d6aa74;
+}
+.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
+  color: #d6aa74;
+}
+.module-style-2 .module-title .box-title, .module-style-2 h3.box-title {
+  border-bottom: 4px double #d6aa74;
+}
+.category_box_wrapper.grid .category_box_inside .category_product_info .category_product_price {
+  color: #d6aa74;
+}
+#redshopcomponent .category_product_title a:hover {
+  color: #d6aa74;
+}
+.product_detail .product_price {
+  color: #d6aa74;
+}
+.product_detail .product_desc_full h3 {
+  color: #d6aa74;
+}
+.product_detail .manufacturer_link a.btn.btn-primary, .product_detail .ask_question_about_product a.btn.btn-primary, .product_detail .product_writereview a.btn.btn-primary {
+  color: #d6aa74;
+}
+ul#compare_ul li a {
+  color: #d6aa74;
+}
+.redshop .product_name > a {
+  color: #d6aa74;
+}
+.mod_redshop_products_price {
+  color: #d6aa74;
+}
+ul.nav[class*='menu-treemenu'] li:hover > a, ul.nav[class*='menu-sidemenu'] li:hover > a, ul.nav[class*='menu-treemenu'] li:hover > span.nav-header, ul.nav[class*='menu-sidemenu'] li:hover > span.nav-header, ul.nav[class*='menu-treemenu'] li:hover > span.separator, ul.nav[class*='menu-sidemenu'] li:hover > span.separator {
+  color: #d6aa74;
+}
+ul.nav[class*='menu-treemenu'] li.active > a, ul.nav[class*='menu-sidemenu'] li.active > a, ul.nav[class*='menu-treemenu'] li.active > span.nav-header, ul.nav[class*='menu-sidemenu'] li.active > span.nav-header, ul.nav[class*='menu-treemenu'] li.active > span.separator, ul.nav[class*='menu-sidemenu'] li.active > span.separator {
+  color: #d6aa74 !important;
+}
+ul.nav[class*='menu-treemenu'] li.active > a, ul.nav[class*='menu-treemenu'] li.current > a {
+  color: #d6aa74;
+}

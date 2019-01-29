@@ -1,0 +1,44 @@
+/* ============================ */
+/*============================ Background ============================ */
+.jsn-es-slider .item-content .read-more:before, .sunfw-menu-head ul.sunfw-tpl-menu .menu-title-image, .read-more::before, .module-style-4, .module-style-2 .module-title .box-title, .module-style-2 h3.box-title, .module-style-1 .module-title .box-title, .module-style-1 h3.box-title, .pb-element-button.full-width.jsn-bootstrap3.jsn-pagebuilder .btn-primary, .btn-primary, .docman_table_layout.docman_table_layout--filtered_table .koowa_table__download a.btn, .docman_list_layout.docman_list_layout--filtered_list .docman_download a.btn, .pagination > .active > a, .pagination > .active > a:hover {
+  background: #375f9f;
+}
+.customquote {
+  background: #6f93cd;
+}
+div.koowa ul.sidebar-nav li a:hover, div.koowa ul.sidebar-nav li.active ul li a:hover {
+  background: #375f9f;
+}
+div.koowa ul.sidebar-nav li.active > a, div.koowa ul.sidebar-nav li.active > a:hover {
+  border-top-color: #375f9f;
+  background-color: #375f9f;
+  background-image: -moz-linear-gradient(top, #4977c0, #375f9f);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4977c0), to(#375f9f));
+  background-image: -webkit-linear-gradient(top, #4977c0, #375f9f);
+  background-image: -o-linear-gradient(top, #4977c0, #375f9f);
+  background-image: linear-gradient(to bottom, #4977c0, #375f9f);
+}
+/*============================ Color ============================ */
+.sunfw-menu-head ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu h3, .sunfw-menu-head ul.sunfw-tpl-menu ul li a::after, .sunfw-menu-head ul.sunfw-tpl-menu ul li a, .sunfw-menu-head ul.sunfw-tpl-menu ul li a:hover, .read-more, .about-top .jsn-bootstrap3 a, div.jsn-bootstrap3 a, .about-top .pb-element-heading.jsn-bootstrap3 h3, .about-top .pb-element-heading.jsn-bootstrap3 .h3, .module-style-2 .module-body a, .module-style-2 .custom a, .module-style-1 .module-body a, .module-style-1 .custom a, .top-left a, .footer .module-title h3, .module-style-3 .module-body a, .module-style-3 .custom a, .pb-element-articlelist.list-one .articlelist-item-read-more a, .pb-element-articlelist .articlelist-item-read-more a, .pagination > li > a, .pagination > li > span, div.k2Pagination ul li.active a, #categories-tree .jqtree-tree .jqtree-title, .module-style-3 .box-title {
+  color: #375f9f;
+}
+.module-style-1 {
+  background: #6f93cd;
+}
+/*============================ Border Color ============================ */
+.shine-header ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu {
+  border-bottom: 2px solid #375f9f;
+}
+div.jsn-bootstrap3.jsn-pagebuilder .btn-primary, .btn-primary:hover, a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active, .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+  border-color: #375f9f;
+}
+.about-top {
+  border-bottom-color: #375f9f;
+}
+div.koowa ul.sidebar-nav li a:hover, div.koowa ul.sidebar-nav li.active ul li a:hover {
+  border-top-color: #375f9f;
+}
+/* ============================ Sub Color ============================ */
+.module-style-2 h3::after, .sunfw-menu-head ul.sunfw-tpl-menu .menu-title-image:after, .pb-element-articlelist .articlelist-item-read-more a::before, .pb-element-articlelist.list-one .articlelist-item-read-more a::before {
+  background: #2e4c7d;
+}

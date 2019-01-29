@@ -1,0 +1,175 @@
+/* Please be careful when editing this file.
+   Don't change our color variables in line 5 & 6.
+   */
+
+   $main-color: false !default;
+   $sub-color: false !default;
+
+   @if $main-color != false {
+
+    .main-menu nav.navbar {
+      background: $main-color;
+      border-right: 1px solid lighten($main-color, 10%);
+      ul.navbar-nav {
+        > li {
+          border-right: 1px solid lighten($main-color, 10%);
+          &:hover > {
+            a, span.navbar-header {
+              background: darken($main-color, 4%);
+            }
+          }
+          > a
+          > span.nav-header {
+            &:after {
+              border-right: 6px solid lighten($main-color, 10%);
+            }
+          }
+        }
+        li.active {
+          > a,
+          > span.navbar-header {
+            background: darken($main-color, 4%);
+          }
+        }
+        ul.dropdown-menu {
+          background: $main-color;
+          li a:before,
+          li span.navbar-header:before {
+
+            background-color: lighten($main-color, 10%);
+          }
+          li a:hover,
+          li span.nav-header:hover {
+            background-color: darken($main-color, 4%);
+          }
+        }
+        ul.sunfw-megamenu-sub-menu {
+          border: 8px solid darken($main-color, 4%);
+        }
+      }
+    }
+    ul.sunfw-megamenu-sub-menu {
+
+      li a:hover{
+        background-color: #fff !important;
+        color: $main-color !important;
+      }
+
+    }
+    .sunfw-direction-rtl .main-menu nav.navbar {
+      border-left: 1px solid lighten($main-color, 10%);
+    }
+    #sunfw_section_header .search form {
+      background: $main-color;
+      input.form-control, input.inputbox {
+        background: $main-color;
+      }
+      button.button {
+        color: $main-color;
+      }
+    }
+    nav.navbar .navbar-header button.navbar-toggle {
+      background: $main-color;
+    }
+    .hot-events .layout-list h3, .modulecontainer.edu-hot-events > .module-title {
+      color: $main-color;
+    }
+    .jsn-bootstrap3.pb-element-image .sunfw-btn-style a.btn i {
+      background: lighten($main-color, 10%);
+    }
+    .jsn-bootstrap3.pb-element-image:hover .sunfw-btn-style a.btn {
+      background: $main-color !important;
+    }
+    //PB2
+    .edu-items .Item.pb-card > .pb-content .pb-heading i {
+      background: lighten($main-color, 10%);
+    }
+    .edu-items .Item.pb-card:hover > .pb-content .pb-heading {
+      background: $main-color !important;
+    }
+    .timeline-block .timeline-year span.year i {
+      color: $main-color;
+    }
+    #mod-search-searchword::-webkit-input-placeholder {
+      color: lighten($main-color, 20%);
+    }
+
+    #mod-search-searchword:-moz-placeholder { /* Firefox 18- */
+      color: lighten($main-color, 20%);
+    }
+
+    #mod-search-searchword::-moz-placeholder { /* Firefox 19+ */
+      color: lighten($main-color, 20%);
+    }
+
+    #mod-search-searchword:-ms-input-placeholder {
+      color: lighten($main-color, 20%);
+    }
+    .module-style.border-header .box-title:after {
+      background: $main-color;
+    }
+    .pagination{
+     > .active > a,
+     > .active > span {
+      &,
+      &:hover,
+      &:focus {
+        color: #fff !important;
+        background-color: $main-color;
+      }
+    }
+  }
+  ul.nav[class*='menu-treemenu'],
+  ul.menu-sidemenu{
+    li{
+      &:hover > {
+        a, 
+        span.nav-header{
+          color: $main-color;
+
+        }
+      }
+      &.active {
+        > a, 
+        > span.nav-header{
+          color: $main-color !important;
+        }
+      }
+    }
+  }
+  .menu-sidemenu{
+    li.active > {
+      a, span.nav-header{
+        color: $main-color;
+      }
+    }
+  }
+  @media (max-width: 767px) {
+    ul.sunfw-tpl-menu li {
+      border-bottom: 1px solid darken($main-color, 8%);
+    }
+
+  }
+
+}
+
+@if $sub-color != false {
+  .main-menu nav.navbar ul.navbar-nav > li.active > a:after {
+    border-right-color: $sub-color;
+  }
+
+  .shine-pos-right div.k2SearchBlock form input.button {
+    background-color: $sub-color;
+  }
+  .video-about a.play {
+    background: $sub-color;
+    &:hover {
+      background: $sub-color;
+    }
+  }
+  div.itemAttachmentsBlock ul.itemAttachments li a {
+    border-bottom: 2px solid darken($sub-color, 5%);
+  }
+}
+
+

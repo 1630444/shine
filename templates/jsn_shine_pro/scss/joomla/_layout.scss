@@ -1,0 +1,283 @@
+// ======================================
+// ------------ GENARAL -----------------
+// ======================================
+
+$page-border: none !default;
+
+$page-box-shadow: none !default;
+
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+.shine-header {
+	position: relative;
+	z-index: 99;
+}
+
+// Row Flex
+.row {
+	&.flex {
+		display: flex;
+		flex-wrap: wrap;
+		&.flex-items-middle {
+			align-items: center;
+		}
+		&.flex-items-top {
+			align-items: top;
+		}
+		&.flex-items-bottom {
+			align-items: bottom;
+		}
+	}
+}
+
+#{$brand-prefix}content {
+	height: 100%;
+	@include transition(all .3s);
+}
+
+img {
+	max-width: 100%;
+}
+.button-cyan {
+	background: #5fc6b6;
+	color: #FFF;
+	font-weight: bold;
+}
+.btn {
+	padding: 10px 20px;
+}
+.snfwComponent {
+	padding: 30px 15px;
+}
+.navbar-default{
+	min-height: auto;
+}
+.sunfw-scrollup {
+	background-color: #000;
+	display: none;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	color: #999;
+	z-index: 10000;
+	padding: 8px 12px;
+	transition: color 0.3s linear, background 0.3s ease-out;
+	-moz-transition: color 0.3s linear, background 0.3s ease-out;
+	-webkit-transition: color 0.3s linear, background 0.3s ease-out;
+	&:hover {
+		text-decoration: none;
+	}
+	&.position-center {
+		left: 48%;
+		bottom: 0;
+		right: auto;
+	}
+	&.position-left {
+		left: 30px;
+		right: auto;
+	}
+}
+.sunfw-switcher a.btn{
+	padding: 5px 10px;
+	margin-bottom: 1px;
+	color: #000;
+	border-radius: 0;
+	&.active,&:active{
+		box-shadow: none;
+		border-bottom: 1px solid #000;
+	}
+}
+.sunfw-link,
+.sunfw-quote,
+.sunfw-gallery,
+.sunfw-video,
+.sunfw-standard {
+	margin-bottom: 15px;
+}
+.sunfw-standard > img{
+	width: 100%;
+
+}
+.sunfw-view-mailto #mailto-window {
+	padding: 30px;
+}
+
+.sunfw-view-article > .sunfw-content > .item-page {
+	padding: 30px;
+}
+.icons .dropdown-menu {
+	border: 1px solid #d1d6de;
+	border-radius: 0;
+	>li{
+		padding-top: 0;
+		padding-bottom: 0;
+		position: relative;
+		span[class*='icon']:before{
+			font-family: FontAwesome;
+			position: absolute;
+			top: 5px;
+			@include rtl-left(15px);
+		}
+		.icon-print:before{
+			content: '\f02f';
+		}
+		.icon-envelope:before{
+			content: '\f0e0'
+		}
+		.edit-icon:before{
+			content: '\f044'
+		}
+		.icon-edit:before {
+			content: '\f044';
+		}
+		> a{
+			padding: 3px 35px;
+		}
+	}
+}
+/* ========================= JOOMLA! 3.x CORE LAYOUT ======================= */
+/* ---------- Article Category Blog,Single Article ----------- */
+.page-header{
+	margin: 10px 0 0;
+	border-bottom: none;
+}
+.article-info {
+	dd {
+		display: inline-block;
+		padding: 0 5px;
+		&:first-child {
+			@include rtl-padding-right(0);
+		}
+	}
+}
+.icons .btn-group{
+	a.dropdown-toggle {
+		padding: 0;
+		span.caret{
+			@include rtl-margin-left(3px);
+		}
+	}
+	&.open a.dropdown-toggle{
+		box-shadow: none;
+	}
+}
+/* ---------- Article Category List ----------- */
+.content-category {
+	.cat-children {
+		padding-top: 10px;
+		h3.page-header {
+			margin: 10px 0;
+			font-size: 18px;
+		}
+	}
+}
+.layout-item {
+	.blog {
+		.page-header {
+			h1, h2 {
+				margin-bottom: 0;
+			}
+		}
+		.article-info {
+			margin-bottom: 3px;
+		}
+	}
+	.content-category {
+		.cat-children {
+			h3.page-header {
+				font-size: 15px;
+				margin: 0;
+				padding: 0;
+			}
+		}
+	}
+}
+.blog-featured {
+	h2 {
+		margin-bottom: 5px;
+	}
+	.article-info {
+		margin-bottom: 5px;
+	}
+}
+/* ---------- Search Page ----------- */
+form#searchForm{
+	border: 1px solid #ecf0f3;
+	padding: 15px;
+	.btn-toolbar{
+		background: #ecf0f3 none repeat scroll 0 0;
+		padding: 15px;
+	}
+	.searchintro{margin: 10px 0}
+	fieldset{
+		margin-top:15px;
+		legend{
+			padding-bottom: 8px;
+			margin-bottom: 10px;
+		}
+		label input{
+			display: inline-block;
+			position: inherit;
+			margin: 0 3px 0;
+		}
+	}
+	p.counter{ padding: 10px 0;}
+}
+dl.search-results{
+	margin: 10px 0;
+	padding: 0 15px;
+	dt.result-title{
+		padding-top: 5px;
+	}
+}
+.chzn-container-single .chzn-single span{
+	@include rtl-margin-right(0);
+}
+/* ---------- Newfeed ----------- */
+#adminForm fieldset.filters label.filter-search-lbl span{
+	@include rtl-margin-right(10px);
+}
+ul.list-striped{
+	padding: 10px 0;
+	list-style-type: none;
+	li, dd{
+		border-bottom: 1px solid #ddd;
+		padding: 8px;
+		&:nth-child(2n+1){
+			background-color: #f9f9f9;
+		}
+		&:hover{
+			background-color: #f5f5f5;
+		}
+		div.list-title a{
+			font-weight: bold;
+		}
+	}
+}
+.newsfeed figure{
+	padding: 10px 0;
+}
+
+.sunfw-sticky.sunfw-sticky-open {
+	background: #FFF;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	right: 0;
+	z-index: 9;
+}
+.pagination{
+	p.counter{
+		display: none;
+	}
+}

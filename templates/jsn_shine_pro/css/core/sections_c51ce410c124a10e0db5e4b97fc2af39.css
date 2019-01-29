@@ -1,0 +1,32 @@
+#sunfw_section_topbar {
+  background-color: #282828;
+  color: #fff;
+}
+#sunfw_section_topbar h1, #sunfw_section_topbar h2, #sunfw_section_topbar h3, #sunfw_section_topbar h4, #sunfw_section_topbar h5, #sunfw_section_topbar h6, #sunfw_section_topbar .h1, #sunfw_section_topbar .h2, #sunfw_section_topbar .h3, #sunfw_section_topbar .h4, #sunfw_section_topbar .h5, #sunfw_section_topbar .h6 {
+  color: #b6b7bb;
+  line-height: 1.4;
+}
+#sunfw_section_topbar h1, #sunfw_section_topbar .h1 {
+  font-size: 31px;
+}
+#sunfw_section_topbar h2, #sunfw_section_topbar .h2 {
+  font-size: 25px;
+}
+#sunfw_section_topbar h3, #sunfw_section_topbar .h3 {
+  font-size: 21px;
+}
+#sunfw_section_topbar h4, #sunfw_section_topbar .h4 {
+  font-size: 15px;
+}
+#sunfw_section_topbar h5, #sunfw_section_topbar .h5 {
+  font-size: 12px;
+}
+#sunfw_section_topbar h6, #sunfw_section_topbar .h6 {
+  font-size: 11px;
+}
+#sunfw_section_topbar a {
+  color: #b6b7bb;
+}
+#sunfw_section_footer a {
+  color: #3d3d3d;
+}

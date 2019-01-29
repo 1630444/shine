@@ -1,0 +1,147 @@
+// ======================================
+// -------- Disable Responsive ----------
+// ======================================
+
+.disable-responsive {
+	.container {
+		width: $container-lg !important;
+	}
+}
+
+// ======================================
+// ------------- Small grid -------------
+// ======================================
+
+@media (min-width: $screen-sm-min) {
+
+}
+
+// ======================================
+// ------------- Medium grid ------------
+// ======================================
+
+@media (min-width: $screen-md-min) {
+	.container-fluid {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+
+// ======================================
+// ------------- Large grid -------------
+// ======================================
+
+@media (min-width: $screen-lg-min) {
+
+}
+@media(max-width: 1024px) and (min-width: 992px){
+	#kunena nav.navbar{
+		ul.navbar-nav.pull-left{
+			> div {
+				float: left;
+			}
+			li a{
+				padding: 10px;
+			}
+		}
+	}
+}
+@media (min-width: 768px) {
+	.sunfw-menu-head li.megamenu > .caret {
+		display: none;
+	}
+	.layout-item .item-image{
+	&.pull-left{
+		@include rtl-margin-right(20px);
+	}
+	&.pull-right{
+		@include rtl-margin-left(20px);
+	}
+}
+}
+// responsive max-width: 767px;
+@media (max-width: 767px) {
+	ul.div-menu{
+		li{
+			display: block;
+		}
+	}
+	.sunfw-logo, .sunfw-logo.padding-top-15{
+		padding: 0 0 5px;
+	}
+	.sunfw-menu-head {
+		i {
+			color: #000;
+		}
+	}
+	.block-menu {
+		position: absolute;
+		top: 0;
+		padding: 0;
+		@include rtl-right(0);
+	}
+	.jsn-breadcrumb {
+		padding: 40px 0;
+	}
+	.blog {
+		.article-info dd:last-child {
+			float: none;
+		}
+		.entry-content {
+			padding: 15px;
+		}
+	}
+	.item-page {
+		padding-top: 20px;
+	}
+	.item-page .article-info {
+		padding-bottom: 30px;
+	}
+	.item-page .page-header h2 {
+		font-size: 35px;
+	}
+	.layout-item .blog [class*='col-xs-'] {
+		width: 100%;
+	}
+	.bottom, .bottom .align-right {
+		text-align: center;
+	}
+	div.k2AccountPage table.admintable td input, div.k2AccountPage table.admintable td textarea{
+		margin-left: 0 !important;
+        max-width: 95%;
+    }   
+
+}
+@media (max-width: 480px) {
+	.blog {
+		.items-row [class*="col-xs-4"] {
+			width: 100%;
+		}
+	}
+	.jsn-breadcrumb {
+		padding: 30px 0;
+	}
+	.layout-item .slider-home {
+		padding: 30px 0;
+		h1 {
+			font-size: 24px;
+			margin-bottom: 15px;
+		}
+		.btn {
+			margin-top: 20px;
+		}
+	}
+	body .contact #contact-form.form-horizontal {
+		.control-group {
+			.control-label,
+			.controls {
+				width: 100%;
+				display: block;
+				clear: both;
+				text-align: left;
+				margin: 0;
+			}
+		}
+	}
+}

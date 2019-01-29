@@ -1,0 +1,104 @@
+$main-color: false !default;
+$sub-color: false !default;
+@if($main-color != false){
+	@media (min-width: 768px) {
+		.sunfw-mega-menu .custom-content h3 {
+		    color: $main-color !important;
+		}
+		body:not(.sunfw-homepage) .sunfw-menu > ul > li.active > a, body:not(.sunfw-homepage) .sunfw-menu > ul > li.current > a {
+		    color: $main-color !important;
+		}
+		body:not(.sunfw-homepage) .sunfw-menu > ul > li > a:hover {
+		    color: $main-color !important;
+		}
+	}
+	.work-block:hover {
+	    border-bottom: 2px solid $main-color;
+	}
+	.jsn-bootstrap3 h1 strong, .jsn-bootstrap3 h2 strong, .jsn-bootstrap3 h3 strong {
+		background: $main-color;
+	}
+	.k2MasonryFilter #filters > .button:after {
+		background: $main-color;
+	}
+	.k2ItemsBlock a.moduleItemTitle:hover {
+	    color: $main-color;
+	}
+	.k2ItemsBlock.k2Masonry .Item .item-bottom .k2Comment:hover,
+	.k2ItemsBlock.k2Masonry .Item .item-bottom .moduleItemHits:hover,
+	.k2ItemsBlock.k2Masonry .Item .item-bottom .btnSocialSharing:hover,
+	.k2ItemsBlock.k2Masonry .Item .item-bottom .k2FeedIcon:hover {
+		color: $main-color !important;
+		i {
+			color: $main-color !important;
+		}
+	}
+	.jsn-bootstrap3 a:hover, .jsn-bootstrap3 a:focus {
+		color: $main-color !important;
+	}
+	.box-contact .jsn-bootstrap3 .pb-promobox section .btn-default {
+		background-color: $main-color !important;
+	}
+	#sunfw_section_footer a:hover {
+		color: $main-color;
+	}
+	.social li a:hover {
+	    color: $main-color !important;
+	}
+	.sunfw-section .jsn-bootstrap3.pb-element-testimonial .pb-testimonial .pb-testimonial-meta .pb-testimonial-jobtitle {
+		color: $main-color !important;
+	}
+	.customcontact-info strong {
+		color: $main-color;
+	}
+	.our-value {
+	    .btn-default {
+	        color: $main-color !important;
+	    }
+	}
+	.module-contact-form .controls:focus, .module-contact-form .controls:hover {
+		border-color: $main-color;
+	}
+	ul.nav[class*='menu-treemenu'],
+	ul.nav[class*='menu-sidemenu'] {
+		li {
+			&:hover > {
+				a, 
+				span.nav-header,
+				span.separator{
+					color: $main-color;
+				}
+			}
+			&.active {
+				> a, 
+				> span.nav-header,
+				> span.separator{
+					color: $main-color !important;
+				}
+			}
+		}
+	}
+	ul {
+		&.nav[class*='menu-treemenu'] {
+			li {
+				&.active,
+				&.current {
+					> a {
+						color: $main-color;
+					}
+				}
+			}
+		}
+	}
+	// responsive max-width: 480px;
+	@media (max-width: 480px) {
+		.our-story, .our-value {
+			background: $main-color !important;
+		}
+	}
+}
+@if($sub-color != false){
+	.box-contact .jsn-bootstrap3 .pb-promobox section .btn-default:hover {
+		background-color: $sub-color !important;
+	}
+}

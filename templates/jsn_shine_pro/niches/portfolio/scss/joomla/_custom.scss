@@ -1,0 +1,113 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body:not(.sunfw-homepage) #sunfw_section_content-bottom-over {
+	position: relative;
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: inherit;
+    	z-index: 0;
+		-webkit-filter: grayscale(1);
+		filter: grayscale(1);
+	}
+	
+}
+@media (min-width: 768px) {
+	.col-sm-1-5 {
+		width: 20%;
+		float: left;
+	}
+	.col-sm-2-5 {
+		width: 40%;
+		float: left;
+	}
+	.col-sm-3-5 {
+		width: 60%;
+		float: left;
+	}
+	.col-sm-4-5 {
+		width: 80%;
+		float: left;
+	}
+	// Row Flex
+	.row {
+		&.flex {
+			display: flex;
+			display: -webkit-flex;
+			&.flex-items-middle {
+		    align-items: center;
+		    -webkit-align-items: center;
+			}
+			&.flex-items-top {
+			    align-items: flex-start;
+			    -webkit-align-items: flex-start;
+			}
+			&.flex-items-bottom {
+			    align-items: flex-end;
+			    -webkit-align-items: flex-end;
+			}
+		}
+	}
+}
+
+body.sunfw-homepage #sunfw_section_content-top-over {
+	border: none;
+}
+.btn.btn-default {
+	line-height: 100%;
+}
+.btn-default:hover {
+	text-decoration: none !important;
+}
+//Joomla
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
+	border-bottom-width: 1px;
+}
+
+//Kunena
+#kunena.layout .search .btn {
+    border: 1px solid #DDD;
+    border-radius: 2px;
+    padding: 6px 12px !important;
+    line-height: 21px;
+    margin: 0 !important;
+}
+#kunena.layout .btn-toolbar .btn.b3, #kunena.layout #search .btn.b3 {
+    padding: 0px 4px;
+    width: 20px;
+    height: 20px;
+    line-height: 22px;
+}
+#kunena .navbar-default .navbar-nav .btn-link {
+	background: #2f2f2f;
+	padding: 13px 20px;
+}
+@media (max-width: 959px) {
+	#kunena .navbar-default .navbar-nav .btn-link {
+		margin: 0;
+	}
+	#kunena.layout .navbar-nav.pull-left > div {
+	    padding-top: 0;
+	}
+	#kunena.layout .navbar .nav {
+	    width: inherit;
+	}
+	#kunena.layout li.dropdown {
+	    padding: 0;
+	}
+	#kunena.layout .mobile-user {
+	    margin-top: 0 !important;
+	}
+}
+
+.pb-button {
+	&.btn-default, &.btn-primary {
+		display: inline-block !important;
+	}
+}

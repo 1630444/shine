@@ -1,0 +1,152 @@
+$main-color: false !default;
+@if($main-color != false){
+	#sunfw_section_footer ul.menu li a:hover{
+		color: $main-color;
+	}
+
+	.navbar ul.navbar-nav li{
+		a,span.nav-header{
+			&:hover{
+				color: $main-color;
+			}  
+		}             
+		&.active > {
+			span.nav-header,
+			a{
+				color: $main-color;
+				&:hover{
+					color: $main-color;
+				}
+			}
+		}
+
+	}
+	div.k2TagCloudBlock {
+		a,a:hover{
+			color: $main-color;
+		}
+	}
+	.productdetails-view .vm-product-details-container .spacer-buy-area .product-price .vm-price-value span {
+		color: $main-color;
+	}
+
+	.productdetails-view .information_tabs ul.tabs li.active a {
+		color: $main-color !important;
+	}
+
+	#userForm button[type='reset']{
+		background-color: $main-color;
+		&:hover{
+			background-color: $main-color !important;
+		}	
+	}
+
+	.vm-product-media-container .p-info	.product-name a:hover{
+		color:$main-color;
+	}
+
+	.vm-sidebar ul li a:hover{
+		color:$main-color;
+	}
+
+	#fancybox-content .showcart{
+		background-color: $main-color;
+	}
+
+	.vm_mod_product .spacer .product-price span{
+		color: $main-color;
+	}
+
+	.featured-view .spacer .product-price span,
+	.latest-view .spacer .product-price span,
+	.topten-view .spacer .product-price span,
+	.recent-view .spacer .product-price span,
+	.related-products-view .spacer .product-price span,
+	.browse-view .row .product .spacer .product-price span {
+		color: $main-color;
+	}
+
+	.product-info .align-right .product-price .vm-display span.PricesalesPrice{
+		color: $main-color;
+	}
+	.p-info .addtocart-area .addtocart-button:hover input{
+		color: $main-color;
+	}
+	.p-info .addtocart-area .addtocart-button:hover i{
+		color: $main-color;
+	}
+	.jsn-bootstrap3 .pillow-members ul.pb-social-icons li:hover div.pb-brand-icons i{
+		color: $main-color;
+	}
+	.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus{
+		background-color: $main-color;
+		border-color: $main-color;
+	}	
+	.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus{
+		color: $main-color;
+	}	
+	// Module Styles
+	.module-style-2 .module-title .box-title, .module-style-2 h3.box-title {
+		border-bottom: 4px double $main-color;
+	}
+
+	//RedShop
+	.category_box_wrapper.grid .category_box_inside .category_product_info .category_product_price{
+		color: $main-color;
+	}
+	#redshopcomponent .category_product_title a:hover{
+		color: $main-color;
+	}
+	.product_detail .product_price{
+		color: $main-color;
+	}
+	.product_detail .product_desc_full h3{
+		color: $main-color;
+	}
+	.product_detail .manufacturer_link a.btn.btn-primary, .product_detail .ask_question_about_product a.btn.btn-primary, .product_detail .product_writereview a.btn.btn-primary{
+		color: $main-color;
+	}
+	ul#compare_ul li a{
+		color: $main-color;
+	}
+	.redshop .product_name > a{
+		color: $main-color;
+	}
+	.mod_redshop_products_price{
+		color: $main-color;
+	}
+	ul.nav[class*='menu-treemenu'],
+	ul.nav[class*='menu-sidemenu'] {
+		li {
+			&:hover > {
+				a, 
+				span.nav-header,
+				span.separator{
+					color: $main-color;
+				}
+			}
+			&.active {
+				> a, 
+				> span.nav-header,
+				> span.separator{
+					color: $main-color !important;
+				}
+			}
+		}
+	}
+	ul {
+		&.nav[class*='menu-treemenu'] {
+			li {
+				&.active,
+				&.current {
+					> a {
+						color: $main-color;
+					}
+				}
+			}
+		}
+	}
+
+}
+
+

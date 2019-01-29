@@ -1,0 +1,6 @@
+/* Write mixins with hiway style */
+@mixin border-radius ($border) {
+  -webkit-border-radius:$border;
+  -moz-border-radius:$border;
+  border-radius:$border;
+}

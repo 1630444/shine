@@ -1,0 +1,24 @@
+// ======================================
+// ---------- SHINE EDUCATION -----------
+// ======================================
+
+$color-blue-active: #232e7f;
+//$color-blue: #2f3c8d;
+//$color-green: #8ec549;
+
+@mixin shine-heading{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+%btn-style{    
+    font-size: 13px;
+    color: #fff;
+    border-radius: 2px;
+    padding: 12px 20px;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: none;
+    border: none;
+}

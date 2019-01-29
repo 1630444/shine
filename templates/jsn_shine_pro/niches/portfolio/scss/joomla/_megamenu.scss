@@ -1,0 +1,157 @@
+@media (min-width: 768px) {
+  .shine-header {
+    .container {
+      position: relative;
+    }
+    .block-menu {
+      position: static !important;
+      .sunfw-menu-head {
+        position: static;
+      }
+    }
+  }
+  .sunfw-menu-head {
+    &.navbar-default {
+      background: transparent;
+      margin: 0;
+      border: none;
+      min-height: auto;
+      .sunfw-menu {
+        padding: 0;
+      }
+      .navbar-nav {
+        @include rtl-float-right();
+      }
+      .navbar-nav > li {
+        display: inline-block;
+        vertical-align: top;
+        > a,
+        >span.nav-header {
+          font-weight: 700;
+          text-transform: uppercase;
+          padding: 20px 15px;
+          display: block;
+          line-height: 20px;
+          &:hover, &:focus {
+            background: transparent;
+            outline: none;
+          }
+          .caret {
+            position: relative;
+            top: inherit;
+            @include rtl-margin-left(7px);
+          }
+        }
+        &.active {
+          a {
+            background: transparent;
+            outline: none;
+          }
+        }
+        &:last-child {
+          > a {
+            @include rtl-padding-right(0);
+          }
+        }
+        &.sunfw-submenu-flipback {
+          a .caret {
+            @include rtl-left(0);
+          }
+          .dropdown-submenu {
+            a {
+              @include rtl-text-align-right();
+            }
+          }
+
+        }
+      }
+    }
+  }
+  ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu .modulecontainer {
+    padding: 0;
+  }
+  .megamenu .module-title {
+    font-weight: bold;
+    font-size: 12px !important;
+  }
+  .sunfw-mega-menu {
+    a {
+      &:before {
+        display: none;
+      }
+    }
+    .custom-content {
+      font-size: 14px;
+      line-height: 20px;
+      h3 {
+        font-size: 72px !important;
+        line-height: 100% !important;
+        color: $primary-color !important;
+        font-weight: 300;
+      }
+    }
+    ul.menu {
+      li {
+        display: block;
+        a,span.nav-header {
+          padding: 10px 0;
+          display: block;
+          position: relative;
+        }
+        .caret{
+          border-top: 4px solid transparent;
+          border-right: 4px solid transparent;
+          border-left: 4px solid ;
+          border-bottom: 4px solid transparent;
+          position: absolute;
+          @include rtl-right(15px);
+              top: calc( 50% - 4px);
+        }
+      }
+      .nav-child {
+        display: none;
+        background: #fff;
+        padding: 10px 15px;
+        list-style: none;
+        z-index: 99;
+        border: 1px solid #ccc;
+      }
+    }
+    .custom {
+      ul {
+        position: relative;
+        display: block;
+        @include rtl-right(0 !important);
+        li {
+          padding: 0;
+          a,span.nav-header {
+            padding: 10px 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.sunfw-mega-menu ul.menu li span.nav-header
+.sunfw-menu-head {
+  .sunfw-menu {
+    ul li {
+      &.current, &.active {
+        > a,
+        >span.nav-header {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}
+.sunfwMenuSlide ul.sunfw-tpl-menu {
+  background: transparent;
+  width: auto;
+}
+.jsn-menu-sticky {
+  background-color: #92CBD4;
+  @include box-shadow(none);
+  position: fixed !important; 
+}

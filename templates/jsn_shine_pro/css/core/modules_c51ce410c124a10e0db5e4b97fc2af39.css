@@ -1,0 +1,35 @@
+body#sunfw-master .module-style-3 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f2f2f2;
+}
+body#sunfw-master .module-style-3 .module-title .box-title {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+body#sunfw-master .module-style-1 .module-title .box-title {
+  background: #d6aa74;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+body#sunfw-master .module-style-1 .module-body .btn-default, body#sunfw-master .module-style-1 .module-body .btn-primary {
+  border-top-left-radius: 0px;
+}
+body#sunfw-master .module-style-2 .module-title .box-title {
+  background: #f9f9f9;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+body#sunfw-master .module-style-4 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f2f2f2;
+}
+body#sunfw-master .module-style-4 .module-title .box-title {
+  background: #f9f9f9;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: normal;
+}

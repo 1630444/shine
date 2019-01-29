@@ -1,0 +1,348 @@
+
+// ======================================
+// ------------- Small grid -------------
+// ======================================
+
+@media (max-width: $screen-xs-max) {
+	.ngo-partner{
+		width: 100%;
+		padding-top: 0;
+		form{
+			width: 100%;
+			.jsn-form-content .span6{
+				width: 100%;
+			}
+		}
+	}
+	.ngo-layout-list ul li.articlelist-item,.ngo-layout-list2 ul li.articlelist-item{
+		width: 100%;
+		margin-right: 0;
+	}
+	nav.navbar ul.navbar-nav > li > a{
+		margin-bottom: 0;
+	}
+	.jsn-bootstrap3 .ngo-bg-donate {
+		background: none !important;
+		padding: 20px 0 !important;
+	}
+	#sunfw_section_header{
+		padding: 12px 0;
+		.sunfw-logo{
+			max-width: 50%;
+			position: relative;
+			z-index: 999;
+		}
+	}
+	.ngo-mainmenu{
+		position: absolute;
+		right: 0;
+		top: 5px;
+		padding: 0;
+		.navbar{
+			border: none;
+		}
+	}
+	.sunfw-menu ul.navbar-nav li.parent > ul.dropdown-menu{
+		@include rtl-padding-left(15px);
+		border: none;
+		box-shadow: none;
+		width: 100% !important;
+		> li.parent > a > span.caret{
+			@include rtl-right(0);
+		}
+	}
+	ul.sunfw-tpl-menu .caret {
+		background-color: #000;
+		&:before{
+			color: #fff;
+		}
+	}
+	nav.navbar.sunfw-menu-head ul.navbar-nav > li > a{
+		padding: 10px 15px;
+	}
+	nav.navbar.sunfw-menu-head ul.navbar-nav > li > a.ngo-bg-color{
+		margin-left: 0;
+	}
+	.search-menu .search {
+		margin-bottom: 10px;
+		@include rtl-float-left;
+		form {
+			margin: -10px 0 0 ;
+			button.button{
+				top: auto;	
+			}
+		}
+	}
+	.ngo-layout-list2 ul li.articlelist-item .articlelist-item-content{
+		bottom: 18px;
+		right: 5%;
+		left: 20px;
+		.title a{
+			font-size: 11px;
+		}
+		.meta-data-wrapper .category a{
+			font-size: 12px;
+		}
+	}
+	.ngo-newsletter form {
+		.jsn-form-content .jsn-row-container{
+			width: 100%;
+		}
+		.form-actions{
+			width: 50%;
+			margin-top: 15px !important;
+		}
+	}
+	#sunfw_section_promo .pb-element-button{
+		.pull-left,.pull-right{
+			float: none !important;
+		}
+	}
+	.about-us .pb-element-list ul li{
+		width: 100%;
+		text-align: center;
+	}
+	.blog .item{
+		margin-bottom: 15px;
+	}
+	#user-registration .controls, #member-registration .controls{
+		margin-left: 0;
+	}
+	#kunena.layout .search input{
+		margin-left: 0;
+		width: 200px;
+		right: 5px;
+	}
+	body.sunfw-direction-rtl .navbar-nav > li{
+		float: none;
+	}
+	.pb-section.ngo-donate{
+		background: none !important;
+	}
+	div.k2AccountPage table.admintable td input, div.k2AccountPage table.admintable td textarea{
+		margin-left: 0;
+	}
+
+	//Fix
+	.pb-section > div > .Grid.pb-grid > .Column.pb-column{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	.pb-module .pb-section > div > .Grid.pb-grid > .Column.pb-column{
+		padding: 1rem !important;
+	}
+	#sunfw-master .ngo-latest-news .pb-column .pb-item.pb-item-image-bg .pb-content{
+		.pb-header{
+			font-size: 12px;
+		}
+		a.Category{
+			font-size: 11px;
+		}		
+	}	
+	.copyright{
+		text-align: center;
+	}
+	.ngo-who-we-are{
+		padding-top: 0;
+		.pb-section{
+			padding-top: 0 !important;
+		}
+	}
+	.ngo-impact-list{
+		margin-top: 50px !important;
+	}
+	div.k2AccountPage table input, div.k2AccountPage table textarea{
+		max-width: 95%;
+	}
+	#searchForm .btn-toolbar > .btn-group:nth-child(2n){
+		margin-top: 10px;
+	}
+	div.k2ItemsBlock ul li div.moduleItemIntrotext{
+		clear: both;
+	}
+	div.itemToolbar ul{
+		text-align: center;
+	}
+	div.tagItemImageBlock{
+		float: none;
+		.tagItemImage{
+			margin-right: 0;
+		}
+	}
+	#kunena.layout .navbar ul.nav.navbar-nav{
+		width: auto;
+	}
+	#kunena.layout .mobile-user{
+		margin-top: 8px !important;
+	}
+	#kunena #jumpto{
+		margin-top: 15px;
+	}
+	#sunfw_section_header{
+		z-index: 5;
+	}
+	.ngo-donate form .controls input{
+		margin-top: 5px;
+	}
+	#sunfw-master .ngo-donate .controls input{
+		width: 100% !important;
+	}
+	.ngo-impact-list .pb-grid > .pb-column:last-child > .pb-blurb{
+		margin-bottom: 10px !important;
+	}
+	body.sunfw-direction-rtl ul.sunfw-tpl-menu > li.dropdown-submenu ul li:hover > ul{
+		right: 0 !important;
+	}  
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+	.jsn-bootstrap3 .ngo-bg-donate {
+		padding: 20px 0 !important;
+	}
+	nav.navbar.sunfw-menu-head .sunfw-menu > ul.navbar-nav > li > a{
+		font-size: 12px !important;
+		padding: 10px;
+	}
+	.ngo-social ul{
+		padding-left: 0;
+	}
+	.navbar{
+		min-height: auto;
+	}
+	.row #column_column-3{
+		padding-top: 0px;
+	}
+	#sunfw-master .col-tablet-full{
+		width: 100% !important;
+	}
+	#sunfw-master .ngo-donate .pb-grid > .pb-column:first-child{
+		padding-bottom: 50px;
+	}
+	#sunfw-master .ngo-latest-news .pb-column .pb-item.pb-item-image-bg .pb-content{
+		.pb-header{
+			font-size: 14px;
+		}
+		a.Category{
+			font-size: 13px;
+		}		
+	}
+}
+@media (max-width: $screen-sm-max) {
+	.jsn-bootstrap3 .ngo-impact-list ul li{
+		width: 100%;
+		margin-right: 0;
+	}
+	.ngo-newsletter{
+		width: 100%;
+	}
+	#sunfw-master .ngo-latest-news .pb-column .pb-item.pb-item-image-bg {
+		padding: 70px 10px 10px 20px;
+	}		
+}
+@media (min-width: $screen-sm-min){
+	ul.sunfw-tpl-menu ul li.parent {
+		a, span.nav-header{
+			span.caret {
+				border-bottom: 4px solid transparent;
+				border-top: 4px solid transparent;
+				border-left: 4px dashed;
+				position: absolute;
+				right: 5px !important;
+				top: 18px;
+			}
+		}
+	}
+	ul.sunfw-tpl-menu .sunfw-submenu-flipback ul.dropdown-menu .caret {
+    transform: rotate(180deg);
+	}
+	nav.navbar .navbar-collapse{
+		@include rtl-float-right;
+	}
+	nav.navbar ul.navbar-nav > li > a > span{
+		position: relative;
+		&:before{
+			content: '';
+			position: absolute;
+			bottom: -6px;
+			left: 50%;
+			width: 0px;
+			height: 3px;
+			@include transition(width .3s, left .3s);
+		}
+	}
+}
+// ======================================
+// ------------- Medium grid ------------
+// ======================================
+@media(max-width: $screen-md-max) and (min-width: $screen-md-min){
+
+	.layout-item .blog .page-header h2{
+		font-size: 21px;
+	}
+	.blog .item{
+		padding: 0px;
+	}
+}
+@media (min-width: $screen-md-min) {
+	.container-fluid {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.social-fb{
+		margin-left: 20px;
+	}
+	.about-us{
+		width: 73%;
+	}
+	.divide-col .nav > li{
+		width: 50%;
+		float: left;
+	}
+	.search-menu .search{		
+		#mod-search-searchword{
+			max-width: 0; 
+			opacity: 0;
+		}
+		form:hover #mod-search-searchword,form #mod-search-searchword:focus {
+			max-width: 200px;
+			opacity: 1;
+		}
+		form{
+			button.button{
+				@include rtl-right(0px);
+				height: 33px;
+			}
+		}
+	}
+	nav.navbar.sunfw-menu-head ul.navbar-nav > li > a.ngo-bg-color{
+		padding: 10px 15px;
+		margin-top: 10px;
+	}
+	.sunfw-pos-right .pb-element-articlelist li.articlelist-item{
+		.articlelist-item-thumbnail{
+			max-width: 33%;    
+		}
+		.articlelist-item-content{
+			float: left;
+			max-width: 60%;
+		}
+	}	
+}
+
+@media (min-width: $screen-md-max) {
+	.sunfw-homepage .container-970 > .container{
+		width: 1000px;
+	}
+}
+
+//IP5
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (device-aspect-ratio: 40/71) {
+	#sunfw-master .ngo-latest-news .pb-column .pb-item.pb-item-image-bg .pb-content{
+		.pb-header{
+			font-size: 10px;
+		}
+		a.Category{
+			font-size: 10px;
+		}		
+	}	
+}

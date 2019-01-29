@@ -1,0 +1,105 @@
+/* ============================ */
+// PLEASE DON'T EDIT THIS CODE: 
+$main-color: false !default;
+@if($main-color != false) {
+	/*============================ Background ============================ */
+	.jsn-es-slider .item-content .read-more:before,
+	.sunfw-menu-head ul.sunfw-tpl-menu .menu-title-image,
+	.read-more::before,
+	.module-style-4,
+	.module-style-2 .module-title .box-title, .module-style-2 h3.box-title,
+	.module-style-1 .module-title .box-title, .module-style-1 h3.box-title,
+	.pb-element-button.full-width.jsn-bootstrap3.jsn-pagebuilder .btn-primary,
+	.btn-primary,
+	.docman_table_layout.docman_table_layout--filtered_table .koowa_table__download a.btn,
+	.docman_list_layout.docman_list_layout--filtered_list .docman_download a.btn,
+	.pagination > .active > a, .pagination > .active > a:hover {
+		background: $main-color;
+	}
+	.customquote {
+		background: lighten($main-color, 20%);
+	}
+	div.koowa ul.sidebar-nav li a:hover, div.koowa ul.sidebar-nav li.active ul li a:hover {
+		background: $main-color;
+	}
+	div.koowa ul.sidebar-nav li.active > a, div.koowa ul.sidebar-nav li.active > a:hover {
+		border-top-color: $main-color;
+		background-color: $main-color;
+		background-image: -moz-linear-gradient(top, lighten($main-color, 10%), $main-color);
+		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(lighten($main-color, 10%)), to($main-color));
+		background-image: -webkit-linear-gradient(top, lighten($main-color, 10%), $main-color);
+		background-image: -o-linear-gradient(top, lighten($main-color, 10%), $main-color);
+		background-image: linear-gradient(to bottom, lighten($main-color, 10%), $main-color);
+	}
+
+	/*============================ Color ============================ */
+	.sunfw-menu-head {
+		ul.sunfw-tpl-menu{
+			ul li {
+				a, 
+				span.nav-header{
+					color: $main-color;
+					&:after,
+					&:hover{
+						color: $main-color;
+					}
+				}
+			}
+		}
+	}
+	.module-style-3,
+	.module-style-2,
+	.module-style-1{
+		.module-body a,
+		.custom a{
+			color: $main-color;
+		}
+	}
+	.sunfw-menu-head ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu h3,
+	.read-more, .about-top .jsn-bootstrap3 a, div.jsn-bootstrap3 a,
+	.about-top .pb-element-heading.jsn-bootstrap3 h3, .about-top .pb-element-heading.jsn-bootstrap3 .h3,
+	.top-left a, 
+	.footer .module-title h3,
+	.pb-element-articlelist.list-one .articlelist-item-read-more a,
+	.pb-element-articlelist .articlelist-item-read-more a,
+	.pagination > li > a, .pagination > li > span,
+	div.k2Pagination ul li.active a, #categories-tree .jqtree-tree .jqtree-title,
+	.module-style-3 .box-title {
+		color: $main-color;
+	}
+	.module-style-1 {
+		background: lighten($main-color, 20%);
+	}
+	/*============================ Border Color ============================ */
+	.shine-header ul.sunfw-tpl-menu > li.megamenu ul.sunfw-megamenu-sub-menu {
+		border-bottom: 2px solid $main-color;
+	}
+	div.jsn-bootstrap3.jsn-pagebuilder .btn-primary,
+	.btn-primary:hover,
+	a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active,
+	.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
+	.pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+		border-color: $main-color;
+	}
+	.about-top {
+		border-bottom-color: $main-color;
+	}
+	div.koowa ul.sidebar-nav li a:hover, div.koowa ul.sidebar-nav li.active ul li a:hover {
+		border-top-color: $main-color;
+	}
+	
+}
+
+/* ============================ Sub Color ============================ */
+$sub-color: false !default;
+@if($sub-color != false){
+
+	.module-style-2 h3::after,
+	.sunfw-menu-head ul.sunfw-tpl-menu .menu-title-image:after,
+	.pb-element-articlelist .articlelist-item-read-more a::before,
+	.pb-element-articlelist.list-one .articlelist-item-read-more a::before,
+	.module-style-2 h3.box-title:after, .module-style-1 h3.box-title:after, .module-style-3 h3.box-title:after,
+	.module-style-2 h3::after {
+		background: $sub-color;
+	}
+}

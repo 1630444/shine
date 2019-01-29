@@ -1,0 +1,169 @@
+/* ============================ */
+// PLEASE DON'T EDIT THIS CODE: 
+$main-color: false !default;
+@if($main-color != false){
+	$main-color: $main-color;
+	/*============================ Background ============================ */
+	.sport-head,
+	.sport-head.sunfw-sticky-open,
+	.bg-head-menu:after,
+	div#fd.eb.eb-jsn_shine .eb-header .eb-navbar-nav > li.active,
+	.bg-head-menu::before, .bg-head-menu::after,
+	div#fd.eb.mod_easyblogmostpopularpost.video .mod-item.first .eb-mod-thumb i:hover,
+	div#fd.eb.mod_easybloglatestblogs.video .first-item .eb-mod-thumb i:hover,
+	div#fd.eb.list-video .eb-mod-thumb a:hover i:hover,
+	[class*="layout-col-three"] .articlelist-item div.title::before,
+	div#fd.eb.mod_easyblogmostpopularpost.video-list .eb-mod-thumb a:hover i:hover,
+	.btn-primary {
+		background: $main-color;
+	}
+	.bg-head-menu {
+		background: lighten($main-color,6%);
+	}
+	
+	/*============================ Border Color ============================ */
+	a, .jsn-bootstrap3 a, div.jsn-bootstrap3 a,
+	.module-style.trending div#fd.eb.eb-mod .eb-mod-title a:hover,
+	div#fd.eb.mod_easyblogmostpopularpost.video .eb-mod-title::before,
+	.footer ul.menu li::before, div#fd.eb .mod-post-type a,
+	div#fd.eb.eb-jsn_shine .eb-pager .eb-pager__link-list a.active,
+	div#fd.eb.mod_easybloglatestblogs .eb-mod-title a:hover,
+	div#fd.eb.mod_easybloglatestblogs.firstimage .mod-item:not(.first):before,
+	div#fd.eb.mod_easyblogmostpopularpost .eb-mod-title a.eb-mod-media-title:hover,
+	div#fd.eb.mod_easyblogmostpopularpost.video .mod-item.first .eb-mod-thumb a:hover i,
+	div#fd.eb.mod_easyblogmostpopularpost.videolarge .eb-mod-thumb .content .header i,
+	div#fd.eb.mod_easyblogmostpopularpost.videolarge .eb-mod-thumb .content .header .content-header .meta-head a,
+	div#fd.eb.mod_easyblogmostpopularpost.videolarge .eb-mod-thumb .content .header .eb-mod-media-title:hover,
+	div#fd.eb.mod_easybloglatestblogs.video .first-item .eb-mod-thumb a:hover i,
+	.eb-mod-thumb a:hover i,
+	.sunfw-menu-head .sunfw-tpl-menu .dropdown-menu > li > a:hover,
+	.sunfw-menu-head .sunfw-mega-menu ul li a:hover,
+	.readmore a, .readmore a:hover,
+	[class*="layout-col-three"].icon-video .articlelist-item div.title::before,
+	div.k2Pagination ul li a, .pagination > li > a, .pagination > li > span,
+	[class*="layout-col-"] .pb-articlelist-wrapper .meta-data-wrapper.muted div,
+	[class*="layout-col-"] .pb-articlelist-wrapper .articlelist-item-read-more a,
+	div#fd.eb.mod_easybloglatestblogs .cat-more a:hover,
+	.module-style.trending ul.category-module.trending .mod-articles-category-title:hover,
+	.catItemTitle a:hover,.tagItemTitle a:hover,
+	#eb .is-active>.eb-navbar__footer-link,
+	#eb .eb-pager__link-list a.active{
+		color: $main-color;
+	}
+	.Joomla_Article span.pb-content a.Title.pb-text:hover {
+		color: $main-color !important;
+	}
+	/*============================ Border Color ============================ */
+	div#fd.eb.eb-jsn_shine .eb-header .eb-navbar-nav > li.active {
+		border-color: $main-color;
+	}
+	.module-title .box-title::after, .module-title .pb-module-title::after,
+	.pb-element-module .box-title::after, .pb-element-module .pb-module-title::after {
+		border-left-color: $main-color;
+	}
+	div#fd.eb.mod_easyblogcategories .sportnew-cat li a::after {
+		border-color: $main-color #262f3b rgba(0, 0, 0, 0) $main-color;
+	}
+	.sport-head .search input {
+		border-color: lighten($main-color,27%);
+	}
+	div.module-body .sportnew-cat li a:after {
+		border-color: $main-color #262f3b rgba(0, 0, 0, 0) $main-color;
+	}
+
+	.bg-head-menu::after {
+		box-shadow: 0 0 0 35px lighten($main-color,5%), 0 0 0 70px lighten($main-color,10%), 0 0 0 105px lighten($main-color,12%), 0 0 0 140px lighten($main-color,15%);
+		-webkit-box-shadow: 0 0 0 35px lighten($main-color,5%), 0 0 0 70px lighten($main-color,10%), 0 0 0 105px lighten($main-color,12%), 0 0 0 140px lighten($main-color,15%);
+		-moz-box-shadow: 0 0 0 35px lighten($main-color,5%), 0 0 0 70px lighten($main-color,10%), 0 0 0 105px lighten($main-color,12%), 0 0 0 140px lighten($main-color,15%);
+	}
+	ul.div-menu li {
+		&.active a,
+		&:hover a{
+			color: $main-color !important;
+		}
+	}
+	ul.nav[class*='menu-treemenu'],
+	ul.nav[class*='menu-sidemenu'] {
+		li {
+			&:hover > {
+				a, 
+				span.nav-header,
+				span.separator{
+					color: $main-color;
+				}
+			}
+			&.active {
+				> a, 
+				> span.nav-header,
+				> span.separator{
+					color: $main-color !important;
+				}
+			}
+			a,span.nav-header{
+				&:hover{
+					color: $main-color !important;
+				}
+			}
+		}
+
+	}
+	ul {
+		&.nav[class*='menu-treemenu'] {
+			li {
+				&.active,
+				&.current {
+					> a {
+						color: $main-color;
+					}
+				}
+			}
+		}
+	}
+	.pagination > .active >{
+		a,a:hover,a:focus,span,span:hover,span:focus{
+			background-color: $main-color;
+			border-color: $main-color;
+		}
+	}
+	#kunena .progress-bar{
+		background-color: $main-color;
+	}
+}
+
+/* ============================ Sub Color ============================ */
+$sub-color: false !default;
+@if($sub-color != false){
+	.sport-banner::after, .bg-head-banner::after,
+	.bg-head-top .bg, .sport-top:after, .bg-head-top:after {
+		background: $sub-color;
+	}
+	.bg-head-banner .bg::after, .bg-head-top .bg:after {
+		-webkit-box-shadow: 0 0 0 40px darken($sub-color, 21%), 0 0 0 76px darken($sub-color, 17%), 0 0 0 116px darken($sub-color, 13%);
+		-moz-box-shadow: 0 0 0 40px darken($sub-color, 21%), 0 0 0 76px darken($sub-color, 17%), 0 0 0 116px darken($sub-color, 13%);
+		box-shadow: 0 0 0 40px darken($sub-color, 21%), 0 0 0 76px darken($sub-color, 17%), 0 0 0 116px darken($sub-color, 13%);
+	}
+}
+
+
+//custom
+div#eb.mod_easyblogmostpopularpost .eb-mod-title a:hover,
+.latest-new-html .title-post:hover,
+div#eb.mod_easybloglatestblogs .cat-more a:hover,
+.must-watch-video .title-post:hover,
+.motor-olympics .title-post:hover,
+.box-module .title-post:hover{
+	color: $main-color !important;
+}
+#eb .eb-mod-media-title:hover,
+ul.sunfw-tpl-menu > li.active > ul.sunfw-submenu-level-1 > li.active > ul.sunfw-submenu-level-2 > li.active > a,
+ul.sunfw-tpl-menu > li.active > ul.sunfw-submenu-level-1 > li.active > a{
+	color: $main-color;
+}
+#eb .eb-showcase-control>.btn:hover,
+#eb .btn-primary,
+#eb .eb-showcase-more .btn:hover{
+	background-color: $main-color !important;
+}
+.k2AccountPage div.k2AccountPageUpdate .button{
+	background-color: $main-color;
+}

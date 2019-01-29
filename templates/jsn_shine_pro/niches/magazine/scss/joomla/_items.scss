@@ -1,0 +1,196 @@
+
+// ======================================
+// ---------- Item Back To Top ----------
+// ======================================
+
+.scrollup {
+    // position: fixed;
+    // bottom: 40px;
+    // right: 40px;
+    // @include size(40px, 40px);
+    // line-height: 35px;
+    // text-align: center;
+    // border-radius: 50%;
+    // border: 1px solid #000;
+    // z-index: 999;
+
+    // .fa {
+    //     color: #000;
+    // }
+}
+
+// ======================================
+// --------------- Logo -----------------
+// ======================================
+
+.logo {
+
+}
+
+// ======================================
+// --------------- Copyright ------------
+// ======================================
+
+
+.copyright {
+
+}
+
+// ======================================
+// ------------- Social Icon ------------
+// ======================================
+
+.social {
+    @include rtl-text-align-right();
+    li {
+        padding: 0;
+        width: 29px;
+        height: 30px;
+        text-align: center;
+        line-height: 25px;
+        cursor: pointer;
+        border: none;
+        @include rtl-margin-right(0);
+        a {
+            color: #3e3e3e;
+            font-size: 13px;
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
+    &.social-top {
+        height: 51px;
+        line-height: 46px;
+        background: $secondary-color;
+        position: relative;
+        @include rtl-padding-right(10px);
+        a {
+            color: #96b1e3;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+}
+
+// ======================================
+// ------------- Cookia-low -------------
+// ======================================
+
+.cookialaw {
+    display: none;
+    z-index: 999;
+    p {
+        line-height: 34px;
+        margin-bottom: 0;
+    }
+
+    &.top {
+        top: 0;
+    }
+
+    &.left {
+        @include rtl-left(0);
+    }
+
+    &.right {
+        @include rtl-right(0);
+    }
+
+    &.bottom {
+        bottom: 0;
+    }
+
+    &.fixed {
+        position: fixed;
+    }
+
+    &.full {
+        width: 100%;
+    }
+
+    &.show {
+        display: block;
+    }
+
+}
+
+// ======================================
+// ------------- Custom HTML ------------
+// ======================================
+
+.custom-html {
+    
+}
+.banner-in-video {
+    padding-top: 33px;
+    padding-bottom: 23px;
+    border-bottom: 1px solid #e9e9e9;
+    border-top: 1px solid #e9e9e9; 
+}
+
+// ======================================
+// ------------- Subscribe ------------
+// ======================================
+
+.subscribe {
+  .btn {
+    line-height: 20px;
+    border-radius: 0;
+  }  
+}
+
+.search {
+    &.search-inline {
+        width: 50px;
+        background: $secondary-color;
+        @include rtl-text-align-right();
+        position: relative;
+        #sun_search_icon {
+            width: 50px;
+            height: 51px;
+            line-height: 50px;
+            font-size: 12px;
+            text-align: center;
+            cursor: pointer;
+            @include transition(all 0.35s ease 0s);
+            @include rtl-border-left(1px solid #2351a7);
+            z-index: 1022;
+            color: #fff;
+        }
+        .form-inline {
+            position: absolute;
+            border: 0px none;
+            top: 0;
+            @include rtl-right(50px);
+            bottom: 0px;
+            margin: auto;
+            height: 50px;
+            width: 0;
+            border-radius: 0;
+            z-index: 1;
+            overflow: hidden;
+            @include transition(all .5s ease-in-out);
+            input {
+                width: 100%;
+                height: 50px;
+            }
+            .button {
+                display: none;
+            }
+        }
+        &:hover {
+            background: darken( $primary-color, 5% );
+        }
+        @media (min-width: 980px) {
+            .activeSearch & {
+                .form-inline {
+                    width: 250px;
+                }
+            }
+        }
+        
+    }
+}
+

@@ -1,0 +1,22 @@
+.eshop-product-tabs #productTab li a::before {
+  top: 5px;
+  transform: rotateY(-180deg);
+}
+
+.eshop-product-tabs #productTab li:first-child a {
+  padding-left: 20px;
+}
+
+#jsn_section_component h3.module-title::before {
+  transform: rotateY(-180deg);
+}
+
+.eshop-product .slick-prev {
+  left: 10px;
+  right: inherit;
+}
+
+.eshop-product .slick-next {
+  left: 50px;
+  right: inherit;
+}

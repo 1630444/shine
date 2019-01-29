@@ -1,0 +1,526 @@
+
+@media (min-width: 768px) {
+	.container {
+		width: 100%;
+		max-width: 100%;
+	}
+	ul.sunfw-tpl-menu ul li.parent {
+		a, span.nav-header{
+			span.caret {
+				border-top: 4px solid transparent;
+				border-bottom: 4px solid transparent;
+				@include rtl-border-left( 4px dashed);
+			}
+		}
+	}
+}
+@media (min-width: 1400px) {
+	.container {
+		width: 100%;
+		max-width: 1400px;
+	}
+}
+
+@media (max-width: 1366px) {
+	.bg-head-menu:before {
+		width: 442px;
+	}
+	.bg-head-top .bg:after {
+		left: -114px;
+	}
+}
+
+@media (max-width: 1300px) {
+	.bg-head-menu:before {
+		width: 392px;
+	}
+}
+
+@media (max-width: 1280px) {
+	.bg-head-menu:before {
+		width: 375px;
+	}
+}
+
+@media (max-width: 1250px) {
+	.bg-head-banner {
+		width: 528px;
+	}
+	.bg-head-top {
+		width: 489px;
+	}
+	.bg-head-menu:before {
+		width: 381px;
+	}
+}
+
+@media (max-width: 1160px) {
+	.sunfw-menu-head.navbar .sunfw-tpl-menu > li > a {
+		padding: 15px 13px;
+	}
+}
+
+// responsive max-width: 1024;
+@media (max-width: 1024px) {
+	.sunfw-menu-head.navbar .sunfw-tpl-menu > li > a {
+		padding: 15px 8px;
+	}
+	.footer {
+		.jsn-bootstrap3 {
+			.col-md-6 {
+				width: 100%;
+			}
+		}
+	}
+	@media(min-width: $screen-md-min){
+		div#fd.eb.mod_easyblogmostpopularpost.list .mod-item .eb-mod-thumb,
+		div#fd.eb.mod_easyblogmostpopularpost.firstthumb .mod-item:not(.first-item) .eb-mod-thumb{
+			width: 80px;
+		}
+	}
+}
+
+// responsive max-width: 980px;
+@media (max-width: 980px) {
+	.container {
+		width: 100%;
+		max-width: 980px;
+	}
+	.sunfw-menu-head.navbar-default .navbar-nav > li > a {
+		padding: 15px 10px;
+	}
+	.sunfw-logo {
+		top: -25px;
+	}
+}
+
+@media (max-width: 960px) {
+	.left-sidebar {
+		// display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+	.left-sidebar {
+		// display: none;
+	}
+	.menu-search {
+		// position: absolute;
+		// top: 3px;
+		// right: 0;
+		// width: 180px;
+	}
+	.sunfw-direction-rtl {
+		.menu-search {
+			right: auto;
+			left: 0;
+		}
+	}
+	.sport-head .search {
+		i {
+			top: 13px;
+		}
+		input {
+			width: 100%;
+			margin-top: 0px;
+		}
+	}
+	.sport-head, .sport-top {
+		> div {
+			// padding: 0;
+		}
+	}
+	.sport-top {
+		ul.nav > li {
+			> a {
+				padding: 5px;
+			}
+			&:first-child > a {
+				padding-left: 0;
+			}
+		}
+	}
+	.newsletters .jsn-uniform.jsn-master .jsn-row-container .form-actions .jsn-form-submit {
+		margin: 0;
+	}
+	.bottom {
+		.module-body a > img {
+			margin-top: 35px;
+		}
+	}
+}
+@media (min-width: 768px) {
+	.sunfw-menu-head li.megamenu > .caret {
+		display: none;
+	}
+}
+@media (min-width: 768px) and (max-width: 768px) {
+	.right-sidebar .Joomla_Article .Image {
+		width: 60px !important;
+	}
+}
+@media (max-width: 768px) {
+	div.sunfw-menu > ul > li > a {
+		font-size: 12px;
+	}
+	.sport-top ul.nav > li > a {
+		padding: 5px 3px;
+	}
+	.sport-banner {
+		.module-style.img2 {
+			a {
+				&:first-child {
+					img {
+						padding-right: 0;
+					}
+				}
+				width: 50%;
+				float: left;
+				img {
+					padding: 0 5px;
+				}
+			}
+		}
+	}
+	.sunfw-menu-head.navbar-default .navbar-nav > li > {
+		a,span.nav-header {
+		padding: 15px 8px;
+	}
+	}
+	.sport-head .search {
+		&.open {
+			input {
+				background: rgba(0,0,0,0.8);
+				width: 100%;
+			}
+		}
+	}
+	.main-content {
+		.page-content, .right-sidebar {
+			width: 100%;
+			border: none;
+		}
+	}
+	.footer .social li {
+		margin-right: 0;
+	}
+	
+	#sunfw-master .no-padding-mobile .pb-grid > .pb-column{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	#sunfw-master .no-padding-mobile .left-col{
+		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+		padding-bottom: 20px !important;
+	}
+	.module-style.pd-top-10{
+		padding-top: 0px;
+	}
+	
+	.newsletters .jsn-uniform.jsn-master .jsn-bootstrap .jsn-form-content .control-group.title .controls input{
+		width: 100% !important;
+	}
+	.footer .app img {
+		padding-left: 0px;	 
+	}
+	div#fd.eb .eb-showcase-control>.btn > span.fa{
+		font-size: 16px;
+	}
+	div#fd.eb .eb-post-thumb .eb-post-image{
+		padding: 0;
+	}
+	#sunfw-master .channel-right{
+		padding-bottom: 0 !important;
+		.eb-mod > .mod-grid:last-child{
+			padding-bottom: 0px !important;
+		}
+	}
+	#searchForm > .btn-toolbar .btn-group:first-child{
+		width: 68%;
+		.form-control{
+			height: 29px;
+		}
+	}
+	#kunena.layout .mobile-user {
+		margin-top: -35px !important;
+	}	
+	div.k2ItemsBlock ul li div.moduleItemIntrotext a.moduleItemImage img{
+		margin: 0;
+	}
+	div#fd.eb.mod_easybloglatestblogs.firstimage .mod-item:not(.first) .eb-mod-title {
+		padding: 0 10px;
+	}
+}
+// responsive max-width: 767px;
+@media (max-width: 767px) {
+	.newsletters .jsn-uniform.jsn-master .jsn-bootstrap .jsn-form-content .control-group.title .control-label{
+		margin-top: 25px;
+	}
+	.sport-head .search {
+		
+		input {
+			width: 65%;
+		}
+	}
+	.sport-head .search input{
+		margin-top: 12px;
+	}
+	ul.sunfw-tpl-menu .caret:before {
+		top: 4px;
+	}
+	.Joomla_Article > .pb-image {
+		width: 100% !important;
+	}
+	.sunfw-menu-head ul.sunfw-tpl-menu > li.megamenu:not(.dropdown-submenu) > a:before {
+		display: none;
+	}
+	.sport-head .search {
+		&.open {
+			input {
+				background: transparent;
+			}
+		}
+		input {
+			width: 100%;
+		}
+	}
+	.sunfw-logo img {
+		margin: 0 auto;
+	}
+	.bg-head-menu, .bg-head-banner, .sport-banner:after, .sport-top:after, .bg-head-top {
+		display: none;
+	}
+	body.home .page-content {
+		padding: 0;
+		border: none;
+	}
+	.sport-top {
+		text-align: center;
+		ul {
+			li {
+				display: inline-block;
+				float: none;
+			}
+		}
+		.top-right {
+			text-align: center;
+		}
+	}
+	.nav > li > a {
+		padding: 10px;
+	}
+	.top-right {
+		.search {
+			form {
+				> label {
+					display: none;
+				}
+				#mod-search-searchword {
+					width: 100%;
+				}
+			}
+		}
+	}
+	nav.sunfw-menu-head i {
+		color: #FFF;
+	}
+	.menu-search {
+		position: absolute;
+		width: 50%;
+		@include rtl-right(0);
+	}
+	.sport-head {
+		.col-xs-12 {
+			padding: 0;
+		}
+		.search input {
+			height: 32px;
+		}
+		.search i {
+			top: 20px;
+		}
+	}
+	.sunfw-menu-head.navbar-default{
+		.navbar-toggle:hover, .sunfw-menu-head.navbar-default .navbar-toggle:focus {
+			background: transparent;
+		}
+		.navbar-nav > li > a {
+			padding: 10px 20px;
+		}
+	}
+	.sunfw-menu-head {
+		&.navbar .navbar-nav > li:first-child > a {
+			padding-left: 20px;
+		}
+		.sunfw-menu {
+			background: #222933;
+			border: none;
+			margin: 1px -15px 0;
+			padding: 0;
+			@include box-shadow(none);
+		}
+		ul.sunfw-tpl-menu {
+			.dropdown-menu {
+				a, span.nav-header{
+					.caret {
+						top: 0;
+					}
+				}
+			}
+			li a {
+				padding-left: 20px;
+			}
+			> li > ul {
+				background: transparent;
+			}
+			li {
+				border-bottom-color: #333;
+			}
+			ul li.parent.dropdown-submenu .caret:before {
+				// top: 0;
+			}
+			ul {
+				background: transparent;
+				li a {
+					padding: 10px 0;
+				}
+			}
+			> li.megamenu ul.sunfw-megamenu-sub-menu {
+				padding: 10px 10px;
+			}
+			li.grid {
+				padding: 0;
+				p {
+					color: #FFF;
+				}
+				h3 {
+					padding-bottom: 5px;
+				}
+			}
+			.caret {
+				background: #011220;
+			}
+		}
+		.navbar-header {
+			.navbar-toggle {
+				float: none;
+				margin-left: 0;
+				&:hover, &:focus {
+					outline: none;
+					border: 1px solid rgba(255,255,255,0.1);
+					@include box-shadow(none);
+				}
+			}
+		}
+		.sunfw-tpl-menu .dropdown-menu {
+			padding: 0;
+			border-color: #333 !important;
+		}
+	}
+	.sunfw-menu > ul > li ul.dropdown-menu, .sunfw-menu > ul > li ul.sunfw-megamenu-sub-menu {
+		background: transparent !important;
+		.grid {
+			background: transparent !important;
+			li:hover {
+				a {
+					background: transparent !important;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 480px) {
+	body.home .page-content, .sport-head .col-xs-12 {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.sunfw-logo {
+		top: -15px;
+		max-width: 70px;
+		margin-bottom: 20px;
+	}
+	.top-left, .top-right {
+		width: 100%;
+		display: block;
+	}
+	.top-right {
+		padding-bottom: 10px;
+	}
+	#sunfw_section_heading {
+		margin-top: 10px;
+	}
+	.pb-element-articlelist.list-one > .pb-articlelist-wrapper > .row > .pb-articlelist-first {
+		padding-left: 15px;
+		.first-thumbnail {
+			padding-top: 10px;
+		}
+	}
+	#mod-search-searchword {
+		width: 100%;
+	}
+	.about-top {
+		padding-top: 10px !important;
+		margin-top: -60px;
+		.jsn-bootstrap3 h1, .jsn-bootstrap3 .h1, .jsn-bootstrap3 h2, .jsn-bootstrap3 .h2, .jsn-bootstrap3 h3, .jsn-bootstrap3 .h3 {
+			margin-top: 10px;
+		}
+	}
+	.about-top .jsn-bootstrap3 .col-xs-12 .read-more {
+		margin: 0 0 10px;
+	}
+	.sunfw-menu-head {
+		.navbar-nav > .open > a, .navbar-nav > .open > a:hover,
+		.navbar-nav > .open > a:focus,
+		ul.sunfw-tpl-menu > li > ul,
+		.nav .open > a, .nav .open > a:hover, .nav .open > a:focus,
+		ul.sunfw-tpl-menu ul {
+			background: transparent;
+		}
+		ul.sunfw-tpl-menu ul li {
+			a,span.nav-header {
+				color: #FFF !important;
+			}
+		}
+	}
+	.left-sidebar {
+		padding-bottom: 20px;
+	}
+	div.pb-element-articlelist.style-item.item-3 ul.list-style-type-thumbnail li {
+		width: 100%;
+		display: block;
+	}
+	.blog .items-row > div {
+		width: 100%;
+		display: block;
+		clear: both;
+	}
+	div#fd.eb .mod-items-grid > .mod-grid {
+		width: 100% !important;
+		padding-bottom: 15px;
+	}
+	.newsletters .jsn-uniform.jsn-master .jsn-row-container .form-actions .jsn-form-submit {
+		margin: 0;
+	}
+	.newsletters .jsn-uniform.jsn-master .jsn-row-container {
+		margin: 0 auto;
+	}
+	.copyright, .align-right, .copyright .align-right {
+		text-align: center;
+	}
+	#kunena {
+		> .navbar > .navbar-inner .hidden-lg ul.nav.pull-right {
+			margin-top: -20px;
+		}
+		&.layout .search {
+			input {
+				margin-left: 0;
+				width: 100%;
+				background: transparent;
+				border: $sport-border;
+			}
+			.btn {
+				margin: 0;
+			}
+		}
+	}
+}

@@ -1,0 +1,233 @@
+$main-color: false !default;
+@if($main-color != false){
+	a:hover {
+		color: $main-color;
+	}
+	.sunfw-menu-head.navbar-default {
+		.navbar-nav > .active > a,
+		li a:hover {
+			color: $main-color;
+		}
+		ul li a:hover {
+			color: $main-color;
+		}
+
+	}
+	.pagination > .active {
+	 	> a {
+	 		background-color: $main-color;
+	    	border-color: $main-color;
+	    	&:hover, &:focus {
+	    		background-color: $main-color;
+	    		border-color: $main-color;
+	    	}
+		}
+		> span {
+			background-color: $main-color;
+	    	border-color: $main-color;
+	    	&:hover, &:focus {
+	    		background-color: $main-color;
+	    		border-color: $main-color;
+	    	}
+		}
+	}
+	div.k2Pagination ul li.active a {
+		background: $main-color;
+	}
+	.btn-primary {
+		background-color: $main-color;
+		border-color: $main-color;
+	}
+	.product-top .product-price-container .sale-price {
+	    color: $main-color;
+	}
+	.product-top .j2store-product-module-list .j2store-module-product .product-title a:hover {
+		color: $main-color;
+	}
+	.video-image .sc-btn a {
+		background: $main-color;
+	}
+	.detail .j2store-addtocart-form .j2store-add-to-cart .product-wishlist .product-wishlist-link:hover span,
+	.j2store-sidebar-filters-container h4.product-filter-heading::before,
+	.j2store-sidebar-filters-container h3::before,
+	.moduletable h4.product-filter-heading::before,
+	.moduletable h3::before {
+	    background-color: $main-color;
+	}
+	.j2store-product-list.grid-layout .j2store-products-row .j2store-single-product .title-price-block {
+		.product-title a:hover,
+		.product-price-container .sale-price {
+			color: $main-color;
+		}
+	}
+	.product-price-container .sale-price {
+		color: $main-color;
+	}
+	.detail .price-sku-brand-container .product-price-container .sale-price,
+	.j2store-sidebar-filters-container .moduletable .j2store-product-module .j2store-module-product .product-cart-section .product-cart-left-block .product-price-container .sale-price {
+		color: $main-color;
+	}
+	#sunfw_section_main-content .j2store-product-list .grid-list ul li a:hover {
+	    color: $main-color;
+	}
+	.detail #j2store-product-detail-tab li.active a,
+	.detail #j2store-product-detail-tab li a:hover,
+	.detail #j2store-product-detail-tab li a:focus {
+	    color: $main-color !important;
+	}
+	.detail #j2store-product-detail-tab li.active a::before {
+	    background-color: $main-color;
+	}
+	.j2store-product-list #productFilters #j2store_sortby:focus {
+		border: 1px solid $main-color;
+	}
+	.j2store .j2store-cart #j2store-cart-form .j2store-cart-table .j2store-remove,
+	.j2store .j2store-cart .cart-estimator-discount-block #j2store-cart-modules .required,
+	.j2store-product-list.list-layout .j2store-products-row .j2store-single-product .title-price-block .product-title a:hover {
+		color: $main-color;
+	}
+	.j2store-product-list.list-layout .j2store-products-row .j2store-single-product .title-price-block .j2store-addtocart-form .view-button:hover, .j2store-product-list.list-layout .j2store-products-row .j2store-single-product .title-price-block .j2store-addtocart-form .j2store-cart-button:hover {
+		background-color: $main-color;
+		border: 1px solid $main-color;
+	}
+	.j2store-product-list.list-layout .j2store-products-row .j2store-single-product .title-price-block .j2store-addtocart-form .product-wishlist .product-wishlist-link:hover span {
+		background-color: $main-color;
+	}
+	.detail .j2store-addtocart-form .options .option .option-div label:hover,
+	.detail .j2store-addtocart-form .options .option .option-div label:active,
+	.detail .j2store-addtocart-form .options .option .option-div label:focus {
+		color: $main-color;
+	}
+	.detail .j2store-addtocart-form .options .option .option-div input[type=radio]:checked + label span {
+		background: $main-color;
+	}
+	.detail .product-upsells-container {
+		.upsell-product-row {
+			.upsell-product .title-price-block {
+				.upsell-product-title a {
+					&:hover,&:focus {
+						color: $main-color;
+					}
+				}
+				.cross-sell-product-title a {
+					&:hover,&:focus {
+						color: $main-color;
+					}
+				}
+				.product-price-container .sale-price {
+					color: $main-color;
+				}
+			}
+			.crosssell-product .title-price-block {
+				.upsell-product-title a {
+					&:hover,&:focus {
+						color: $main-color;
+					}
+				}
+				.cross-sell-product-title a {
+					&:hover,&:focus {
+						color: $main-color;
+					}
+				}
+				.product-price-container .sale-price {
+					color: $main-color;
+				}
+			}
+		}
+		.crosssell-product-row {
+			.upsell-product .title-price-block {
+				.upsell-product-title a {
+					&:hover,&:focus {
+						color: $main-color;
+					}
+				}
+				.cross-sell-product-title a {
+					&:hover,&:focus {
+						color: $main-color;
+					}
+				}
+				.product-price-container .sale-price {
+					color: $main-color;
+				}
+			}
+			.crosssell-product .title-price-block {
+				.upsell-product-title a {
+					&:hover,&:focus {
+						color: $main-color;
+					}
+				}
+				.cross-sell-product-title a {
+					&:hover,&:focus {
+						color: $main-color;
+					}
+				}
+				.product-price-container .sale-price {
+					color: $main-color;
+				}
+			}
+		}
+	}
+	.detail .product-upsells-container {
+		.upsell-product-row {
+			.upsell-product .title-price-block .product-price-container .sale-price {
+				color: $main-color;
+			}
+			.crosssell-product .title-price-block .product-price-container .sale-price {
+				color: $main-color;
+			}
+		}
+		.crosssell-product-row {
+			.upsell-product .title-price-block .product-price-container .sale-price {
+				color: $main-color;
+			}
+			.crosssell-product .title-price-block .product-price-container .sale-price {
+				color: $main-color;
+			}
+		}
+	}
+	.product-top .product_cart_block .j2store-addtocart-form .j2store-add-to-cart .j2store_cart_button:hover,
+	.product-top .product_cart_block .j2store-product-quickview-modal:hover,
+	.j2store-product-list.grid-layout .j2store-products-row .j2store-single-product .j2store-product-quickview-modal:hover,
+	.j2store-product-list.grid-layout .j2store-products-row .j2store-single-product .title-price-block .j2store-addtocart-form .j2store-add-to-cart .j2store_cart_button:hover {
+	    color: $main-color;
+	}
+	.section-top .j2store_cart_module_120 .j2store-minicart-button .j2store-cart-info .j2store-cart-info-link .cart-item-info a i:hover{
+		color:$main-color;
+	}
+	.section-top .j2store_cart_module_120 .j2store-minicart-button .j2store-cart-item-box .j2store-cart-nav .btn-primary:hover{
+		color:	$main-color !important;
+	}
+	ul.nav[class*='menu-treemenu'],
+	ul.nav[class*='menu-sidemenu'] {
+		li {
+			&:hover > {
+				a, 
+				span.nav-header,
+				span.separator{
+					color: $main-color;
+				}
+			}
+			&.active {
+				> a, 
+				> span.nav-header,
+				> span.separator{
+					color: $main-color !important;
+				}
+			}
+		}
+	}
+	ul {
+		&.nav[class*='menu-treemenu'] {
+			li {
+				&.active,
+				&.current {
+					> a {
+						color: $main-color;
+					}
+				}
+			}
+		}
+	}
+}
+
+

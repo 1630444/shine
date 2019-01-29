@@ -1,0 +1,208 @@
+
+// ======================================
+// ------------- Small grid -------------
+// ======================================
+
+@media (max-width: $screen-xs-max) {
+	.list-article-style1 ul li.articlelist-item{
+		width: 100%;
+		img{
+			width: 100% !important;
+			height: auto !important;
+		}
+	}
+	.pb-section .Grid.pb-grid .Column.pb-column{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+	.list-article-style2 ul li.articlelist-item{
+		width: 100%;
+	}
+	#itemListLeading .itemContainer{
+		.catItemView{ border: none; }
+		.catItemImageBlock{ width: 100%; }
+	}
+	ul.navbar-nav{
+		margin: 0;
+	}
+/* 	ul.sunfw-tpl-megamenu li.parent.open > ul{
+		display: block;
+	}
+	ul.sunfw-tpl-megamenu li.parent > ul{
+		display: none;
+		} */
+		ul.sunfw-tpl-menu ul.dropdown-menu{
+			padding: 0 15px;
+		}
+		.main-menu nav.navbar ul.navbar-nav ul li a:hover{
+			background: inherit;
+		}
+		.navbar-default .navbar-nav .open .dropdown-menu > li > a{
+			color: #fff;
+		}
+		#sunfw_section_header,#sunfw_section_footer{
+			.sunfw-social ul{
+				float: none !important;
+				text-align: center;
+				padding: 10px;
+			}
+		}
+		#sunfw_section_topbar ul.nav li a{
+			padding: 7px 10px;
+			font-size: 11px;
+		}
+		.sunfw-logo, .sunfw-logo.padding-top-15{
+			padding: 15px 0;
+			max-width: 50%;
+			position: relative;
+			z-index: 998;
+		}
+		ul.sunfw-tpl-menu .caret{
+			&:before{color: #fff;}
+		}
+		.edu-mainmenu {
+			position: absolute;
+			right: 0;
+			top: 8px;
+			padding: 0;
+			.main-menu nav.navbar{
+				background: transparent;
+				border-right: none;
+				border-left: none !important;
+				margin-top: 15px;
+			}
+		}
+		.sunfw-menu-head i{
+			color: #fff;
+		}
+		ul.sunfw-tpl-menu .sunfw-mega-menu li {
+			border-bottom: none;			
+		}
+		.sunfw-homepage .item-page {
+			padding-top: 0;
+		}
+		#itemListLeading .itemContainer .catItemImageBlock{
+			padding: 8px 0;
+		}
+		.timeline-block .timeline-content h5{
+			margin-top: 0;
+		}
+		.copyright{
+			text-align: center;
+		}
+		div.k2AccountPage table.admintable td input, div.k2AccountPage table.admintable td textarea{
+			margin-left: 0;
+			max-width: 90% !important; 
+		}
+		.k2AccountPage th.k2ProfileHeading{
+			padding: 8px 0;
+		}
+		.k2ArchivesBlock > ul{
+			padding: 0 !important;
+		}
+		#searchForm .btn-toolbar > .btn-group{
+			margin-bottom: 5px;
+		}
+		.sunfw-content {
+			position: relative;
+		}
+		.modulecontainer.edu-hot-events > .module-title{
+			min-width: 20%;
+		}
+		#kunena.layout {
+			.mobile-user {
+				margin-top: -52px !important;
+			}
+			form{
+				margin-top: 10px;
+			}
+		}
+	}
+
+	@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+		.shine-pos-right ul li.articlelist-item img{
+			width: 100% !important;
+			height: auto !important;
+		}
+		.list-article-style2 ul li.articlelist-item{
+			width: 50%;
+			margin-right:0;
+			&:nth-child(2n+1){
+				clear: both;
+			}
+		}	
+	}
+	@media (max-width: $screen-sm-max) {
+		.jsn-bootstrap3 .btn{
+			margin: 0;
+		}
+		.timeline-block{
+			margin-top: 15px;
+			.timeline-content{
+				width: 100%;
+				padding-left: 60px;
+			}
+			&:nth-child(2n) span.year{		
+				margin-left: 0;
+			}
+		}
+		#shine-timeline::before,.timeline-block .timeline-year{
+			left: 0;
+		}
+		.list-article-style1 ul li.articlelist-item{
+			img{
+				width: 100% !important;
+				height: auto !important;
+			}
+		}
+		.jsn-service{
+			padding: 0px 5px;
+			min-height: 100px
+		}
+		#sunfw_section_header .container > .row:first-child > div:last-child{
+			margin-top: 10px;
+		}
+	}
+	@media (min-width: $screen-sm-min){
+		ul.sunfw-tpl-menu ul li.parent {
+			a, span.nav-header{
+				span.caret {
+					border-bottom: 4px solid transparent;
+					border-top: 4px solid transparent;
+					border-left: 4px dashed;
+					position: absolute;
+					right: 0;
+					top: 16px;
+				}
+			}
+		}
+		.sunfw-direction-rtl .navbar-nav{
+			float: right;
+		}
+	}
+	// ======================================
+	// ------------- Medium grid ------------
+	// ======================================
+
+	@media (min-width: $screen-md-min) {
+		.container-fluid {
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.list-article-style2 ul li.articlelist-item:nth-child(4n){
+			clear:both;
+		}
+		body:not(.sunfw-direction-rtl) #sunfw_section_header .container > .row {
+			> div:first-child{padding-right: 0}
+			> div:last-child{padding-left:0}
+		}
+		body.sunfw-direction-rtl #sunfw_section_header .container > .row {
+			> div:first-child{padding-left: 0}
+			> div:last-child{padding-right:0}
+		}
+		form#josForm textarea#description{
+			width: 320px !important;
+		}
+	}
+
+

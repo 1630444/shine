@@ -1,0 +1,18 @@
+// ======================================
+// ---------- SHINE NGO -----------
+// ======================================
+$dark-color: #222427;
+@mixin shine-heading{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+@mixin link-hover-scale{
+	a{
+		display: inline-block;
+		@include transition(all 0.5s ease-in-out);
+	    &:hover{
+	        @include scale(1.1);
+	    }
+    }
+}

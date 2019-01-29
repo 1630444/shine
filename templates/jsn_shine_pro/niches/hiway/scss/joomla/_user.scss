@@ -1,0 +1,139 @@
+// Login
+.login {
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #FFF;
+  border: 1px solid #ebebeb;
+  border-radius: 0;
+  > form {
+    background: #FFF;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 0 30px;
+    @include box-shadow(none);
+    button {
+      margin-top: 20px;
+    }
+  }
+  .form-horizontal .control-label {
+    @include rtl-text-align-left();
+  }
+  input {
+    border-radius: 2px;
+    height: 45px;
+    line-height: 45px;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    padding: 10px;
+    margin-bottom: 10px;
+    @include box-shadow(none);
+    max-width: 200px;
+  }
+  .control-group {
+    position: relative;
+    #remember {
+      position: absolute;
+      top: 8px;
+      @include rtl-left(100px);
+      height: auto;
+      width: auto;
+    }
+  }
+  .nav.nav-stacked {
+    padding: 15px 15px 20px;
+    > li > a {
+      border: none;
+      background: transparent;
+      padding-bottom: 0;
+      &:hover {
+        border: none;
+        background: transparent;
+        @include box-shadow(none);
+      }
+    }
+  }
+  .btn {
+    border: none;
+  }
+}
+// user-registration
+#user-registration, #member-registration {
+  .control-group {
+    &:before {
+      display: table;
+      content: " ";
+      clear: both;
+    }
+  }
+  .control-label {
+    @include rtl-float-left();
+    width: 150px;
+    padding-top: 5px;
+    @include rtl-text-align-right();
+  }
+  .controls {
+    @include rtl-margin-left(170px);
+    input {
+      height: 34px;
+    }
+    input, textarea {
+      display: block;
+      width: 100%;
+      padding: 6px 12px;
+      font-size: 14px;
+      line-height: 1.42857;
+      color: #555555;
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #ccc;
+      border-radius: 0;
+      @include box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.075));
+      @include transition(border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s);
+      &:focus {
+        border-color: #66afe9;
+        outline: 0;
+	@include box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6));
+      }
+      &:-moz-placeholder {
+        color: #999;
+        opacity: 1;
+      }
+      &:-ms-input-placeholder {
+        color: #999; }
+      &::-webkit-input-placeholder {
+        color: #999; }
+      &::-ms-expand {
+        border: 0;
+        background-color: transparent;
+      }
+      .form-control[disabled], fieldset[disabled] .form-control {
+        cursor: not-allowed;
+      }
+    }
+    button{
+      margin-top: 10px;
+    }
+  }
+}
+.k2AccountPage .button {
+  color: #FFF;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  font-size: 14px;
+  line-height: 1.42857;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

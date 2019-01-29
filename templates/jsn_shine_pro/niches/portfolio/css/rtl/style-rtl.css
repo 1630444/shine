@@ -1,0 +1,44 @@
+/* Check box inpout */
+.radio label, .checkbox label {
+  padding-right: 20px;
+  padding-left: inherit;
+}
+
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+  margin-right: -20px;
+  margin-left: inherit;
+}
+
+/* input-group */
+.input-group-addon:first-child {
+  border-left: 0px none;
+  border-right: 1px solid #ccc;
+}
+
+.navbar-nav {
+  float: right;
+}
+.navbar-nav > li {
+  float: right;
+}
+
+.nav-tabs > li {
+  float: right;
+}
+
+.nav {
+  padding-right: 0;
+  padding-left: inherit;
+}
+
+.list-unstyled {
+  padding-right: 0;
+  padding-left: inherit;
+}
+
+.list-inline {
+  margin-right: -5px;
+  margin-left: inherit;
+  padding-right: 0;
+  padding-left: inherit;
+}

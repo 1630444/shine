@@ -1,0 +1,89 @@
+// ======================================
+// ------------ GENARAL -----------------
+// ======================================
+
+$page-border: none !default;
+$page-box-shadow: none !default;
+.shine-header {
+	padding: 0;
+	.container {
+		padding: 10px 0;
+		border-bottom: 1px solid #e1e1e1;
+	}
+}
+.sunfw-homepage .shine-header {
+	.container {
+		border-bottom: none;
+	}
+}
+.jsn-uniform.jsn-master .jsn-bootstrap .form-actions {
+	margin: 40px 0 0;
+	padding: 0 10px;
+	overflow: hidden;
+}
+@media (min-width: 1200px) {
+	body {
+		.container,.jsn-bootstrap3 .container {
+			width: 1200px;
+		}
+	}
+	#sunfw_section_slider {
+		.jsn-es-slider {
+			margin-top: -90px !important;
+		}
+	}
+	#sunfw_section_header {
+		.sunfw-homepage & {
+			position: relative;
+			z-index: 2;
+			&.jsn-menu-sticky {
+				background-color: #92CBD4;
+			}
+		}
+	}
+}
+
+.layout-item {
+	.blog{
+		.article-info{
+			margin-bottom: 15px;
+		}
+		.entry-content{
+			margin-top: 15px;
+		}
+	}
+	.articleBody{
+		margin-top: 15px;
+	}
+}
+
+.sunfw-direction-rtl{
+	#sunfw_section_content-component h1{
+		text-align: right;
+	}
+	.box-client{
+		.Item{
+			text-align: right !important;
+			p{
+				text-align: right !important;
+			}
+		}
+	}
+}
+
+.ourteam-image{
+	.jsn-gallery{
+		margin-bottom: 40px;
+	}
+}
+
+
+.list-nobullet{
+	list-style: none;
+	i,
+	span[class*='text-'],
+	.jsn-listbullet {
+		@include rtl-margin-right(10px);
+	}
+	
+}

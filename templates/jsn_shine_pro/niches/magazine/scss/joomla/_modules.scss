@@ -1,0 +1,327 @@
+/*!
+ * Sun Framework
+ * Copyright 2016 Joomlashine.
+ * @file _modules.scss
+ */
+
+
+ //
+ // Module Styles
+ // --------------------------------------------------
+ .menu-inline {
+ 	@include rtl-text-align-right();
+ 	.nav > li {
+ 		padding: 0 13px;
+ 		display: inline-block;
+ 		margin-bottom: 0 !important;
+ 		@include rtl-border-right(1px solid #939393);
+ 		a {
+ 			color: #939393 !important;
+ 			&:hover, &.active, &.current {
+ 				color: $primary-color !important;
+ 			}
+ 			font-size: 12px !important;
+ 		}
+ 		&:last-child {
+ 			@include rtl-padding-right(0);
+ 			@include rtl-border-right(none);
+ 		}
+ 		&:first-child {
+ 			@include rtl-padding-left(0);
+ 		}
+ 	}
+ }
+ .menu {
+ 	&.list-inline {
+ 		a {
+ 			i {
+ 				@include rtl-margin-right(8px);
+ 			}
+ 		}
+ 	}
+ }
+
+ //
+ // Breadcrumbs
+ // --------------------------------------------------
+
+ .breadcrumb {
+
+ 	> li {
+
+ 		+ li:before {
+ 			display: none;
+ 		}
+ 	}
+
+ 	> .active {
+
+ 	}
+ }
+ .sunfw-pos-right,
+ .sunfw-pos-left{
+ 	.module-style{
+ 		margin-bottom: 30px;
+ 	}
+ }
+ .module-style {
+ 	.module-title {
+ 		.box-title {
+ 			margin-top: 0;
+ 			margin-bottom: 0;
+ 			padding: 11px 15px;
+ 			line-height: 1;
+ 			.fa {
+ 				@include rtl-margin-right(10px);
+ 				vertical-align: text-top;
+ 			}
+ 		}
+ 	}
+ 	&.module-style-1,&.module-style-3 {
+ 		.module-title {
+ 			border: 1px solid #f2f2f2;
+ 		}
+ 	}
+ 	.module-body {
+ 		border-top: none;
+ 	}
+ 	ul.menu {
+ 		li {
+ 			a {
+ 				color: #6c6c6c;
+ 				@include rtl-padding(10px, 10px, 10px, 37px);
+ 				&.active, &:hover, &:focus {
+ 					color: $primary-color;
+ 				}
+ 				
+ 			}
+ 		}
+ 	}
+ 	&.module-style-3 {
+ 		ul.menu {
+ 			li {
+ 				a {
+ 					color: #202020;
+ 					&.active, &:hover, &:focus {
+ 						background: #dddddd;
+ 						color: $primary-color;
+ 					}
+ 				}
+ 			}
+ 		}
+ 	}
+ 	&.module-style-4 {
+ 		ul.menu {
+ 			li {
+ 				a {
+ 					color: #202020;
+ 					&.active, &:hover, &:focus {
+ 						color: $primary-color;
+ 						position: relative;
+ 						&:before {
+ 							content: "\f111";
+ 							font-family: "FontAwesome";
+ 							position: absolute;
+ 							width: 14px;
+ 							height: 14px;
+ 							@include rtl-left(17px);
+ 						}
+ 					}
+ 				}
+ 			}
+ 		}
+ 		
+ 	}
+ 	&.module-style-2 {
+ 		ul.menu {
+ 			padding-left: 15px;
+ 			padding-right: 15px;
+ 			li {
+ 				a {
+ 					@include rtl-padding(10px, 10px, 9px, 22px);
+ 					position: relative;
+ 					border-bottom: 1px solid #f2f2f2;
+ 					&:before {
+ 						content: "\f0d7";
+ 						font-family: "FontAwesome";
+ 						position: absolute;
+ 						width: 14px;
+ 						height: 14px;
+ 						@include rtl-left(2px);
+ 					}
+ 					&.active, &:hover, &:focus {
+ 						color: $primary-color;
+ 						background: transparent;
+ 					}
+ 				}
+ 				&:last-child {
+ 					a {
+ 						border-bottom: none;
+ 					}
+ 				}
+ 			}
+ 		}
+ 		
+ 	}
+
+ 	.module-title {
+ 		&.has-border-bottom {
+ 			border-bottom: 1px solid $border-color-base;
+ 			padding-bottom: 4px;
+ 			margin-bottom: 16px;
+ 		}
+ 		.has-border-bottom {
+ 			border-bottom: 1px solid $border-color-base;
+ 			padding-bottom: 15px;
+ 			margin-bottom: 16px;
+ 			padding: 11px 0;
+ 		}
+ 		&.margin-bottom-0 {
+ 			margin-bottom: 0;
+ 		}
+ 	}
+ 	.sidebar & {
+ 		.module-title {
+ 			.box-title {
+ 				margin-top: 0;
+ 				margin-bottom: 29px;
+ 				font-size: 16px;
+ 				letter-spacing: 1px;
+ 				padding-bottom: 15px;
+ 				&.margin-bottom-0 {
+ 					margin-bottom: 0;
+ 				}
+ 			}
+ 		}
+ 		.k2ItemsBlock.default {
+ 			.media-left {
+ 				width: 78px;
+ 			}
+ 		}
+ 	}
+ 	
+ 	&.no-background {
+ 		background: transparent;
+ 		.module-title {
+ 			background: transparent;
+ 			padding-bottom: 10px;
+ 			.fa {
+ 				color: #fff !important;
+ 			}
+ 			
+ 		}
+ 	}
+
+ 	
+ }
+ .pb-element-weather {
+ 	.pb-market-title {
+ 		font-size: 16px;
+ 		color: #282828;
+ 		font-weight: 500;
+ 		font-family: "Roboto";
+ 		margin-top: 18px;
+ 	}
+ 	.pb-market-content {
+ 		tr th {
+ 			font-size: 12px;
+ 			font-weight: 500;
+ 			font-family: "Roboto";
+ 		}
+ 	}
+ 	.pb-weather-location-name {
+ 		font-size: 16px;
+ 		color: #282828;
+ 		font-weight: 500;
+ 		font-family: "Roboto";
+ 	}
+ 	.pb-weather-advanced {
+ 		font-size: 12px;
+ 		.pb-weather-current-temp {
+ 			font-size: 20px;
+ 		}
+ 	}
+ 	.pb-weather-extra {
+ 		padding: 0 !important;
+ 		.col-md-4 {
+ 			padding: 0 !important;
+ 		}
+ 	}
+ }
+
+ .list-inline {
+ 	.sunfw-item-contact {
+ 		list-style: outside none none;
+ 		line-height: 23px;
+ 		margin-bottom: 0;
+ 		text-align: right;
+ 		li {
+ 			display: inline-block;
+ 			vertical-align: top;
+ 			padding-left: 5px;
+ 			padding-right: 5px;
+ 			i {
+ 				@include rtl-margin-right(8px);
+ 			}
+ 		}
+ 	}
+ }
+
+ .mod-languages {
+ 	.chzn-container-single {
+ 		.chzn-single {
+ 			border: none;
+ 			border-radius: 0;
+ 			background: transparent;
+ 			@include box-shadow(none);
+ 			padding: 0;
+ 			border: none !important;
+ 			&:hover {
+ 				color: #282828 !important;
+ 			}
+ 			span {
+ 				@include rtl-padding-left(2px !important);
+ 				@include rtl-margin-right(22px);
+ 			}
+ 		}
+ 		.chzn-drop {
+ 			border-radius: 0;
+ 			border: none;
+ 			@include rtl-text-align-left();
+ 		}
+ 		.chzn-results {
+ 			margin: 0;
+ 			padding: 0;
+
+ 		}
+ 	}
+ }
+
+ //
+ // Pagination
+ // --------------------------------------------------
+
+ //
+ // Weather
+ // --------------------------------------------------
+ .pb-weather-wrapper {
+ 	.pb-weather-current {
+ 		padding: 0 !important;
+ 		border: none !important;
+ 	}
+ 	.pb-weather-current-day {
+ 		padding: 0;
+ 	}
+ }
+
+ .no-gutters {
+ 	.row {
+ 		margin-right: 0;
+ 		margin-left: 0;
+ 		& > [class^="col-"],
+ 		& > [class*=" col-"] {
+ 			padding-right: 0;
+ 			padding-left: 0;
+ 		}
+ 	}
+ }

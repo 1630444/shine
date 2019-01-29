@@ -1,0 +1,98 @@
+// ======================================
+// --------------- Logo -----------------
+// ======================================
+
+.sunfw-logo {
+
+}
+
+// ======================================
+// ------------- Social Icon ------------
+// ======================================
+
+.social {
+    li {
+        @include size(30px, 30px);
+        text-align: center;
+        line-height: 30px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        @include rtl-margin-right(5px);
+        a {
+            color: $primary-color;
+            &:hover {
+                color: #363636;
+            }
+        }
+    }
+}
+
+// ======================================
+// ------------- Subscribe ------------
+// ======================================
+
+.subscribe {
+  .btn {
+    line-height: 20px;
+    border-radius: 0;
+  }  
+}
+
+// ======================================
+// ------------- Slider -----------------
+// ======================================
+.jsn-bootstrap3 .pb-element-container {
+    margin: 0 !important;
+}
+.pb-element-easyslider {
+    ul li {
+        margin: 0;
+    }
+}
+
+// ======================================
+// ------------- Banner -----------------
+// ======================================
+.banner {
+    overflow: hidden;
+    p,img {
+        margin: 0 !important;
+    }
+    img {
+        @include scale(1,1);
+        @include transition(all 0.35s ease 0s);
+    }
+    .content {
+        padding: 24px;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        @include transition(all 0.35s ease 0s);
+        h2 {
+            font-size: 22px;
+            margin: 0;
+            color: #282828;
+        }
+        p {
+            font-size: 12px;
+            letter-spacing: 2px;
+            @include opacity(0);
+            @include transition(all 0.35s ease 0s);
+            margin: 0;
+            color: #282828;
+        }
+    }
+    &:hover {
+        img {
+            @include scale(1.1,1.1);
+            @include transition(all 0.35s ease 0s);
+        }
+        .content {
+            bottom: 20px;
+            p {
+                @include opacity(1);
+            }
+        }
+    }
+}

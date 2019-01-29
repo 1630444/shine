@@ -1,0 +1,59 @@
+$main-color: false !default;
+$sub-color: false !default;
+@if($main-color != false){
+	@media (min-width: 768px) {
+		#menu_item_menu ul.navbar-nav > li {
+			&:hover, &.active {
+				background: $main-color;
+			}
+		}
+		.sunfw-menu-head.navbar-default .navbar-nav > li {
+			border-right: 1px solid lighten($main-color, 8%);
+		}
+		.search.search-inline #sun_search_icon {
+			border-left: 1px solid lighten($main-color, 8%);
+		}
+
+	}
+	.block-right-menu:before,.social.social-top,.search.search-inline {
+		background: lighten($main-color, 4%);
+	}
+	.hot-news a.moduleItemTitle .read-more {
+		color: lighten($main-color, 4%);
+	}
+	.k2ItemsBlock a.moduleItemTitle:hover {
+		color: lighten($main-color, 4%);
+	}
+	.k2ItemsBlock .moduleItemAuthor a, .k2ItemsBlock .moduleItemDateCreated a {
+		color: lighten($main-color, 4%) !important;
+	}
+	.menu-inline .nav > li a:hover, .menu-inline .nav > li a.active, .menu-inline .nav > li a.current {
+		color: lighten($main-color, 4%) !important;
+	}
+	.search.search-inline:hover {
+		background: lighten($main-color, 4%);
+	}
+	.social li a:hover {
+		color: $main-color;
+	}
+	ul.div-menu li {
+		&.active a,
+		&:hover a{
+			color: $main-color !important;
+		}
+	}
+	.pagination > .active >{
+		a,a:hover,a:focus,span,span:hover,span:focus{
+			background-color: $main-color;
+			border-color: $main-color;
+		}
+	}
+}
+@if($sub-color != false){ 
+	.hot-news .module-title {
+		background: $sub-color !important;
+	}
+	#k2Container .itemTitle sup {
+		background: $sub-color;
+	}
+}

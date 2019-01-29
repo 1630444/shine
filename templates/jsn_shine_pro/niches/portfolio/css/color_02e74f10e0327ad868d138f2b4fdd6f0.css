@@ -1,0 +1,61 @@
+@media (min-width: 768px) {
+  .sunfw-mega-menu .custom-content h3 {
+    color: #003bd3 !important;
+  }
+  body:not(.sunfw-homepage) .sunfw-menu > ul > li.active > a, body:not(.sunfw-homepage) .sunfw-menu > ul > li.current > a {
+    color: #003bd3 !important;
+  }
+  body:not(.sunfw-homepage) .sunfw-menu > ul > li > a:hover {
+    color: #003bd3 !important;
+  }
+}
+.work-block:hover {
+  border-bottom: 2px solid #003bd3;
+}
+.jsn-bootstrap3 h1 strong, .jsn-bootstrap3 h2 strong, .jsn-bootstrap3 h3 strong {
+  background: #003bd3;
+}
+.k2MasonryFilter #filters > .button:after {
+  background: #003bd3;
+}
+.k2ItemsBlock a.moduleItemTitle:hover {
+  color: #003bd3;
+}
+.k2ItemsBlock.k2Masonry .Item .item-bottom .k2Comment:hover, .k2ItemsBlock.k2Masonry .Item .item-bottom .moduleItemHits:hover, .k2ItemsBlock.k2Masonry .Item .item-bottom .btnSocialSharing:hover, .k2ItemsBlock.k2Masonry .Item .item-bottom .k2FeedIcon:hover {
+  color: #003bd3 !important;
+}
+.k2ItemsBlock.k2Masonry .Item .item-bottom .k2Comment:hover i, .k2ItemsBlock.k2Masonry .Item .item-bottom .moduleItemHits:hover i, .k2ItemsBlock.k2Masonry .Item .item-bottom .btnSocialSharing:hover i, .k2ItemsBlock.k2Masonry .Item .item-bottom .k2FeedIcon:hover i {
+  color: #003bd3 !important;
+}
+.jsn-bootstrap3 a:hover, .jsn-bootstrap3 a:focus {
+  color: #003bd3 !important;
+}
+.box-contact .jsn-bootstrap3 .pb-promobox section .btn-default {
+  background-color: #003bd3 !important;
+}
+#sunfw_section_footer a:hover {
+  color: #003bd3;
+}
+.social li a:hover {
+  color: #003bd3 !important;
+}
+.sunfw-section .jsn-bootstrap3.pb-element-testimonial .pb-testimonial .pb-testimonial-meta .pb-testimonial-jobtitle {
+  color: #003bd3 !important;
+}
+.customcontact-info strong {
+  color: #003bd3;
+}
+.our-value .btn-default {
+  color: #003bd3 !important;
+}
+.module-contact-form .controls:focus, .module-contact-form .controls:hover {
+  border-color: #003bd3;
+}
+@media (max-width: 480px) {
+  .our-story, .our-value {
+    background: #003bd3 !important;
+  }
+}
+.box-contact .jsn-bootstrap3 .pb-promobox section .btn-default:hover {
+  background-color: #0747ee !important;
+}

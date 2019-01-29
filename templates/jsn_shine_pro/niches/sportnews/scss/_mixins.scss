@@ -1,0 +1,54 @@
+
+// border radius
+@mixin border-radius($radius: 0) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;;
+}
+
+// skewX
+@mixin skewX($skew: 0) {
+  -ms-transform: skewX($skew); /* IE 9 */
+  -webkit-transform: skewX($skew); /* Safari */
+  transform: skewX($skew);
+}
+
+@mixin sport-play($skew: 0) {
+  .eb-mod-thumb {
+    position: relative;
+    a:hover {
+      i {
+        &:hover {
+          color: #FFF;
+        }
+      }
+    }
+    i {
+      background: rgba(255,255,255,1);
+      background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(249, 249, 249,1) 47%, rgba(235, 235, 235, 1) 100%);
+      background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(249, 249, 249,1)), color-stop(100%, rgba(235, 235, 235, 1)));
+      background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(249, 249, 249,1) 47%, rgba(235, 235, 235, 1) 100%);
+      background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(249, 249, 249,1) 47%, rgba(235, 235, 235, 1) 100%);
+      background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(249, 249, 249,1) 47%, rgba(235, 235, 235, 1) 100%);
+      background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(249, 249, 249,1) 47%, rgba(235, 235, 235, 1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      overflow: hidden;
+      bottom: 7px;
+      left: 10px;
+      padding-left: 1px;
+      text-align: center;
+      line-height: 37px;
+      @include border-radius(100%);
+      @include transition(0.15s);
+      &:hover {
+        color: #FFF;
+      }
+    }
+    .fa {
+      font-family: "FontAwesome";
+    }
+  }
+}

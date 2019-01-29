@@ -1,0 +1,213 @@
+@media (min-width: 767px) {
+  .sunfw-menu-head {
+    &.navbar-default {
+      background: transparent;
+      margin: 0;
+      border: none;
+      .navbar-collapse {
+        padding: 0;
+      }
+      .navbar-nav > li {
+        padding-left: 19px;
+        padding-right: 19px;
+        @include rtl-border-right(1px solid #2351a7);
+        > a,
+        >span.nav-header{
+          text-transform: uppercase;
+          color: #96b1e3;
+          font-weight: normal;
+          padding-left: 0;
+          padding-right: 0;
+          position: relative;
+          padding-top: 20px;
+          padding-bottom: 19px;
+          line-height: 100%;
+          background: transparent;
+          display: block;
+          .caret {
+            @include rtl-margin-left(10px);
+          }
+        }
+        &.active, &:hover, &:focus {
+          a,span.nav-header {
+            color: #fff;
+            &:hover, &:focus{
+              outline: none;
+            }
+          }
+        }
+        ul li {
+          &.active, &:hover, &:focus {
+            a,span.nav-header {
+              background: transparent;
+            }
+          }
+          &:last-child {
+            > a,span.nav-header {
+              &:before {
+                display: none;
+              }
+            }
+          }
+        }
+        &:last-child {
+          > a,span.nav-header {
+            @include rtl-padding-right(0);
+          }
+        }
+      }
+    }
+  }
+  ul.sunfw-tpl-menu {
+    &.navbar-nav {
+      border: none;
+      margin-bottom: 0;
+      border-radius: 0;
+      padding: 0;
+    }
+    > li.dropdown-submenu ul {
+      @include rtl-left(0);
+    }
+    ul {
+      @include rtl-left(0);
+    }
+    > li.dropdown-submenu li.dropdown-submenu {
+      .caret {
+        @include rtl-right(0px);
+        position: absolute;
+        top: 50%;
+        transform: rotate(-90deg);
+      }
+      > .dropdown-menu {
+        display: none !important;
+      }
+      &:hover {
+        > .dropdown-menu {
+          display: block !important;
+        }
+      }
+    }
+    li.sunfw-submenu-flipback{
+      li.dropdown-submenu {
+        .caret{
+          transform: rotate(90deg);
+        }
+      }
+    }
+  }
+
+}
+ul.sunfw-tpl-menu {
+  > li.megamenu {
+    ul.sunfw-megamenu-sub-menu {
+      li {
+       a,span.nav-header{
+        padding: 5px 15px;  
+        position: relative;
+        display: block;
+        .caret{
+          position: absolute;
+          @include rtl-right(15px);
+          top: calc(50% - 2px);
+          transform: rotate(-90deg);
+          &:before{
+            color: inherit;
+          }
+        }
+      }
+
+    }
+  }
+}
+}
+.sunfw-direction-rtl .sunfw-tpl-menu {
+  .sunfw-mega-menu ul.sub-menu li{
+    a,span.nav-header{
+      text-align: right;
+      .caret{
+        transform: rotate(90deg);
+        &.open{
+          transform: rotate(0deg);
+        }
+      }
+    }
+  }
+}
+.jsn-menu-sticky {
+  background-color: #92CBD4;
+  @include box-shadow(none);
+}
+
+@media (max-width: 767px) {
+  ul.sunfw-tpl-menu > li.dropdown-submenu ul {
+    background: $secondary-color !important;
+    @include rtl-padding(0, 0, 0, 15px);
+    a,
+    span.nav-header {
+      color: #fff !important;
+    }
+  }
+  ul.sunfw-tpl-menu > li.dropdown-submenu ul li {
+    padding: 0 0;
+  }
+  ul.sunfw-tpl-menu > li.dropdown-submenu ul li {
+    a,span.nav-header {
+      @include rtl-padding-left(15px);
+    }
+  }
+  .dropdown-menu > li > {
+    a,span.nav-header{
+      &:hover,
+      &:focus{
+        color: #fff;
+        background-color: $primary-color !important;
+      }
+    }
+  }
+  ul.sunfw-tpl-menu .caret:before {
+    color: #fff !important;
+  }
+  .sunfw-mega-menu{
+
+    ul.sub-menu li {
+      a,span.nav-header{
+        padding: 10px 15px !important;  
+        position: relative;
+        background: inherit !important;
+        .caret{
+          position: absolute;
+          @include rtl-right(0);
+          top: 0!important;
+          transform: rotate(0deg)!important;
+          &:before{
+            position: absolute;
+            color: inherit !important;
+            top: 50%;
+            transform: translateY(-50%);
+
+          }
+        }
+      }
+      ul.dropdown-menu{
+        @include rtl-left(0!important);
+        display: none!important;
+        &.menuShow{
+          display: block !important;
+        }
+      }
+    }
+  }
+  .sunfw-direction-rtl .sunfw-tpl-menu {
+    .sunfw-mega-menu ul.sub-menu li{
+      a,span.nav-header{
+        text-align: right;
+        .caret{
+          transform: rotate(180deg);
+          &.open{
+            transform: rotate(0deg);
+          }
+        }
+      }
+    }
+  }
+}

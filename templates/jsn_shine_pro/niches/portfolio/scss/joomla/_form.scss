@@ -1,0 +1,128 @@
+
+// form contact
+
+.form-contact {
+  .control-group {
+    margin-bottom: 20px;
+    zoom: 1;
+    &:before {
+      display: table;
+      line-height: 0;
+      content: "";
+    }
+    &:after {
+      display: table;
+      line-height: 0;
+      content: "";
+      clear: both;
+    }
+  }
+  .control-label {
+    @include rtl-float-left();
+    width: 160px;
+    padding-top: 5px;
+    @include rtl-text-align-right();
+  }
+  .controls {
+    display: inline-block;
+    @include rtl-padding-left(20px);
+    width: calc(100% - 180px);
+
+    input, textarea {
+    	display: block;
+    	width: 100%;
+    }
+
+  }
+  .help-block {
+    margin-bottom: 0;
+  }
+  input + .help-block, select + .help-block, textarea + .help-block, .uneditable-input + .help-block, .input-prepend + .help-block, .input-append + .help-block {
+    margin-top: 10px;
+  }
+  .form-actions {
+    @include rtl-padding-left(180px);
+  }
+}
+.module-contact-form {
+  padding-top: 12px;
+  .jsn-row-container.row-fluid {
+    overflow: hidden;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 15px;
+    &:before, &:after {
+      display: table;
+      content: " ";
+    }
+  }
+  .control-group {
+    padding: 0 !important;
+  }
+  .jsn-bootstrap {
+    @include rtl-padding-left(0);
+  }
+  .span6 {
+    width: 50%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    @include rtl-float-left();
+    box-sizing: border-box !important;
+  }
+  .span12 {
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    @include rtl-float-left();
+    box-sizing: border-box !important;
+  }
+  .control-group {
+    border: none !important;
+  }
+  .control-label {
+    display: none;
+  }
+  .controls {
+    line-height: 27px;
+    background: #fff;
+    input,textarea {
+      @include box-shadow(none);
+      width: 100%;
+      border: 1px solid #e9e9e9!important;
+      margin-bottom: 0 !important;
+    }
+    &:focus, &:hover {
+      border-color: $primary-color;
+    }
+  }
+}
+.customcontact-info {
+  font-size: 14px;
+  .pb-element-text p {
+    margin: 5px 0px 6px !important
+  }
+  h6 {
+    font-weight: 700 !important;
+    margin-bottom: 18px;
+  }
+  strong {
+    color: $primary-color;
+    margin-right: 12px;
+    font-size: 18px;
+  }
+  a {
+    color: #292929 !important;
+  }
+  
+}
+#jsn_form_1 {
+  .jsn-style-jsn-shine {
+    .jsn-text-center {
+      display: none;
+    }
+  }
+}
